@@ -3,17 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MR MOBILES — Certified Pre-Owned Phones, Premium Collection &amp; Repair Studio</title>
-<meta name="description" content="MR MOBILES — certified pre-owned iPhone &amp; Android devices, premium special editions, accessories, gadgets, and expert hardware/software/FRP repair services.">
+<title>MR MOBILES — Certified Pre-Owned Phones, Premium Collection &amp; Repair Studio | Hosur</title>
+<meta name="description" content="MR MOBILES Hosur — certified pre-owned iPhone &amp; Android devices, premium special editions, accessories, gadgets, and expert hardware/software/FRP repair services.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B0E14'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-style='italic' font-size='30' fill='%23C9A667' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-/* ============================================================
-   MR MOBILES — Design tokens
-   Edit the values below to re-theme the whole site.
-   ============================================================ */
 :root{
   --bg:#0B0E14;
   --bg-soft:#0E121A;
@@ -90,9 +86,7 @@ section{padding:96px 0;}
 .btn-block{width:100%;}
 .btn-sm{padding:10px 18px; font-size:13.5px;}
 
-/* ============================================================
-   HEADER
-   ============================================================ */
+/* HEADER */
 header{
   position:fixed; top:0; left:0; right:0; z-index:500;
   padding:20px 0; transition:background .25s ease, padding .25s ease, border-color .25s ease;
@@ -119,9 +113,7 @@ nav.main-nav a:hover{ color:var(--text); }
 .search-box input::placeholder{ color:var(--text-faint); }
 .search-box svg{ width:15px; height:15px; color:var(--text-faint); flex:none; }
 
-/* ============================================================
-   HERO
-   ============================================================ */
+/* HERO */
 .hero{ position:relative; padding:168px 0 110px; overflow:hidden; }
 .hero-watermark{ position:absolute; inset:0; opacity:.05; pointer-events:none; z-index:0; }
 .hero .wrap{ position:relative; z-index:1; display:grid; grid-template-columns:1.05fr .95fr; gap:50px; align-items:center; }
@@ -158,9 +150,7 @@ nav.main-nav a:hover{ color:var(--text); }
 .floating-card span{ display:block; font-size:11.5px; color:var(--text-faint); }
 @keyframes float{ 0%,100%{ transform:translateY(0);} 50%{ transform:translateY(-12px);} }
 
-/* ============================================================
-   CATEGORY TILES
-   ============================================================ */
+/* CATEGORY TILES */
 .cat-grid{ display:grid; grid-template-columns:repeat(6,1fr); gap:16px; }
 .cat-tile{
   border:1px solid var(--border); border-radius:var(--radius-md); padding:26px 18px; text-align:center;
@@ -172,9 +162,7 @@ nav.main-nav a:hover{ color:var(--text); }
 .cat-tile h4{ font-size:15px; margin-bottom:6px; font-family:var(--sans); font-weight:700;}
 .cat-tile p{ font-size:12.5px; color:var(--text-faint); }
 
-/* ============================================================
-   SHOP / PRODUCTS
-   ============================================================ */
+/* SHOP */
 .shop-head{ display:flex; align-items:flex-end; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:36px;}
 .filter-row{ display:flex; gap:10px; flex-wrap:wrap; }
 .chip{ padding:10px 18px; border-radius:999px; border:1px solid var(--border); font-size:13.5px; font-weight:700; color:var(--text-dim); transition:all .15s ease;}
@@ -202,12 +190,9 @@ nav.main-nav a:hover{ color:var(--text); }
 .price-row .old{ font-size:13px; color:var(--text-faint); text-decoration:line-through; }
 .pcard .add-row{ display:flex; gap:8px; margin-top:6px;}
 .add-row .btn{ flex:1; padding:11px 14px; font-size:13px;}
-
 .shop-more{ text-align:center; margin-top:40px; }
 
-/* ============================================================
-   GRADING SCALE
-   ============================================================ */
+/* GRADING */
 .grade-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
 .grade-card{ border:1px solid var(--border); border-radius:var(--radius-lg); padding:32px 28px; background:var(--surface); position:relative; }
 .grade-card.featured{ border-color:var(--gold-dim); background:linear-gradient(180deg, rgba(201,166,103,.06), var(--surface)); }
@@ -221,9 +206,7 @@ nav.main-nav a:hover{ color:var(--text); }
 .grade-meta div{ display:flex; justify-content:space-between; font-size:13px; color:var(--text-faint); }
 .grade-meta div b{ color:var(--text); font-weight:700; }
 
-/* ============================================================
-   SERVICES
-   ============================================================ */
+/* SERVICES */
 .services-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-bottom:70px;}
 .service-card{ border:1px solid var(--border); border-radius:var(--radius-lg); padding:34px 30px; background:var(--surface); display:flex; flex-direction:column; height:100%; }
 .service-card .si{ width:54px; height:54px; border-radius:14px; background:var(--surface-3); display:flex; align-items:center; justify-content:center; margin-bottom:22px;}
@@ -244,7 +227,6 @@ nav.main-nav a:hover{ color:var(--text); }
 .p-step h5{ font-size:14.5px; font-weight:700; margin-bottom:6px; }
 .p-step p{ font-size:12.5px; color:var(--text-faint); }
 
-/* FAQ accordion */
 .faq-wrap{ max-width:760px; margin:60px auto 0; }
 .faq-item{ border-bottom:1px solid var(--border); }
 .faq-q{ width:100%; display:flex; align-items:center; justify-content:space-between; padding:22px 4px; text-align:left; font-size:15.5px; font-weight:700; color:var(--text);}
@@ -253,17 +235,13 @@ nav.main-nav a:hover{ color:var(--text); }
 .faq-a{ max-height:0; overflow:hidden; transition:max-height .3s ease; }
 .faq-a p{ padding:0 4px 22px; color:var(--text-dim); font-size:14.5px; max-width:640px;}
 
-/* ============================================================
-   TRUST BAR
-   ============================================================ */
+/* TRUST BAR */
 .trust-bar{ background:var(--surface); border-top:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft); padding:50px 0;}
 .trust-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; text-align:center; }
 .trust-grid div strong{ display:block; font-family:var(--serif); font-size:30px; color:var(--gold-light); }
 .trust-grid div span{ font-size:12.5px; color:var(--text-faint); }
 
-/* ============================================================
-   SELL YOUR PHONE
-   ============================================================ */
+/* SELL */
 .sell-section{ background:linear-gradient(135deg, var(--surface-2), var(--bg-soft)); border-radius:var(--radius-lg); margin:0 32px; padding:64px; display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center; max-width:calc(var(--maxw) - 64px); margin-left:auto; margin-right:auto; border:1px solid var(--border);}
 .sell-steps{ display:flex; flex-direction:column; gap:20px; margin:26px 0 30px;}
 .sell-steps div{ display:flex; gap:14px; }
@@ -283,9 +261,7 @@ nav.main-nav a:hover{ color:var(--text); }
 .estimate-result .amt{ font-family:var(--serif); font-size:24px; color:var(--emerald); margin-bottom:4px;}
 .estimate-result p{ font-size:12.5px; color:var(--text-dim); }
 
-/* ============================================================
-   TESTIMONIALS
-   ============================================================ */
+/* TESTIMONIALS */
 .testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
 .testi-card{ border:1px solid var(--border); border-radius:var(--radius-md); padding:28px; background:var(--surface); }
 .stars{ display:flex; gap:3px; margin-bottom:16px;}
@@ -296,9 +272,7 @@ nav.main-nav a:hover{ color:var(--text); }
 .testi-person strong{ display:block; font-size:13.5px; }
 .testi-person span{ display:block; font-size:12px; color:var(--text-faint); }
 
-/* ============================================================
-   CONTACT
-   ============================================================ */
+/* CONTACT */
 .contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:start;}
 .contact-list{ display:flex; flex-direction:column; gap:22px; margin-top:28px;}
 .contact-list div{ display:flex; gap:16px; align-items:flex-start;}
@@ -306,17 +280,10 @@ nav.main-nav a:hover{ color:var(--text); }
 .contact-list .ci svg{ width:19px; height:19px; color:var(--gold-light);}
 .contact-list h5{ font-size:14.5px; margin-bottom:3px;}
 .contact-list p{ font-size:13.5px; color:var(--text-faint); }
-.map-block{ border:1px solid var(--border); border-radius:var(--radius-lg); aspect-ratio:4/3.1; background:
-  repeating-linear-gradient(0deg, var(--surface) 0 1px, transparent 1px 34px),
-  repeating-linear-gradient(90deg, var(--surface) 0 1px, transparent 1px 34px), var(--bg-soft);
-  position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center;}
-.map-pin{ display:flex; flex-direction:column; align-items:center; gap:10px;}
-.map-pin svg{ width:34px; height:34px; color:var(--gold);}
-.map-pin span{ font-size:12.5px; color:var(--text-dim); font-weight:700; text-align:center; max-width:220px;}
+.map-block{ border:1px solid var(--border); border-radius:var(--radius-lg); aspect-ratio:4/3.1; background:var(--bg-soft); overflow:hidden;}
+.map-block iframe{ width:100%; height:100%; border:none; filter:grayscale(20%) contrast(1.1); }
 
-/* ============================================================
-   NEWSLETTER STRIP
-   ============================================================ */
+/* NEWSLETTER */
 .news-strip{ background:linear-gradient(180deg,var(--gold-light),var(--gold)); color:#171106; border-radius:var(--radius-lg); margin:0 32px; padding:44px 56px; max-width:calc(var(--maxw) - 64px); margin-left:auto; margin-right:auto; display:flex; align-items:center; justify-content:space-between; gap:30px; flex-wrap:wrap;}
 .news-strip h3{ font-size:23px; color:#171106; margin-bottom:6px;}
 .news-strip p{ font-size:13.5px; color:#3a2f16; }
@@ -325,9 +292,7 @@ nav.main-nav a:hover{ color:var(--text); }
 .news-form input::placeholder{ color:rgba(23,17,6,.55); }
 .news-form button{ background:#171106; color:var(--gold-light); padding:13px 22px; border-radius:999px; font-weight:800; font-size:13.5px;}
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
+/* FOOTER */
 footer{ padding:80px 0 0; }
 .footer-grid{ display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:40px; padding-bottom:50px; }
 .footer-about p{ font-size:13.5px; color:var(--text-faint); margin:18px 0 22px; max-width:280px;}
@@ -344,9 +309,7 @@ footer{ padding:80px 0 0; }
 .pay-row{ display:flex; gap:14px; align-items:center;}
 .pay-row span{ font-size:11.5px; color:var(--text-faint); border:1px solid var(--border); padding:6px 12px; border-radius:6px;}
 
-/* ============================================================
-   CART DRAWER + QUICK VIEW MODAL
-   ============================================================ */
+/* CART DRAWER & MODAL */
 .overlay{ position:fixed; inset:0; background:rgba(4,6,10,.6); backdrop-filter:blur(2px); z-index:900; opacity:0; pointer-events:none; transition:opacity .25s ease;}
 .overlay.show{ opacity:1; pointer-events:auto;}
 .cart-drawer{
@@ -367,7 +330,6 @@ footer{ padding:80px 0 0; }
 .qty-row{ display:flex; align-items:center; gap:10px; margin-top:8px;}
 .qty-row button{ width:22px; height:22px; border:1px solid var(--border); border-radius:6px; font-size:14px; display:flex; align-items:center; justify-content:center;}
 .qty-row span{ font-size:13px; font-weight:700; min-width:16px; text-align:center;}
-.remove-btn{ font-size:11.5px; color:var(--text-faint); margin-top:8px; text-decoration:underline; }
 .cart-empty{ text-align:center; padding:60px 20px; color:var(--text-faint); font-size:14px;}
 .cart-foot{ padding:22px 24px 26px; border-top:1px solid var(--border-soft); }
 .total-row{ display:flex; justify-content:space-between; margin-bottom:16px; font-size:15px; font-weight:700;}
@@ -386,9 +348,6 @@ footer{ padding:80px 0 0; }
 .modal-info .specs-list div{ display:flex; justify-content:space-between; font-size:13px; color:var(--text-faint);}
 .modal-info .specs-list div b{ color:var(--text); }
 
-/* ============================================================
-   RESPONSIVE
-   ============================================================ */
 @media (max-width:980px){
   nav.main-nav, .search-box{ display:none; }
   .menu-toggle{ display:flex; }
@@ -418,7 +377,6 @@ footer{ padding:80px 0 0; }
   .news-strip{ flex-direction:column; align-items:flex-start;}
 }
 
-/* Mobile nav drawer */
 .mobile-nav{ position:fixed; top:0; right:0; height:100%; width:78%; max-width:340px; background:var(--bg-soft); border-left:1px solid var(--border); z-index:901; transform:translateX(100%); transition:transform .3s ease; padding:28px 26px; display:flex; flex-direction:column; gap:6px;}
 .mobile-nav.show{ transform:translateX(0);}
 .mobile-nav a{ padding:14px 4px; font-size:16px; font-weight:700; border-bottom:1px solid var(--border-soft);}
@@ -426,9 +384,6 @@ footer{ padding:80px 0 0; }
 </head>
 <body>
 
-<!-- ============================================================
-     ICON SPRITE (all icons are hand-drawn inline SVG — no image files needed)
-     ============================================================ -->
 <svg class="sr-only" aria-hidden="true">
 <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="2" width="12" height="20" rx="2.4"/><line x1="10" y1="19" x2="14" y2="19"/></symbol>
 <symbol id="i-android" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="7" width="14" height="14" rx="2.2"/><line x1="5" y1="11" x2="19" y2="11" opacity=".5"/><line x1="9" y1="4" x2="10.5" y2="7"/><line x1="15" y1="4" x2="13.5" y2="7"/><line x1="9" y1="17" x2="9" y2="17.01"/><line x1="15" y1="17" x2="15" y2="17.01"/></symbol>
@@ -440,8 +395,6 @@ footer{ padding:80px 0 0; }
 <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/><line x1="12" y1="15" x2="12" y2="17"/></symbol>
 <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2l7 3v6c0 5-3.5 8.5-7 11-3.5-2.5-7-6-7-11V5l7-3z"/></symbol>
 <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 13 10 18 19 7"/></symbol>
-<symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><polygon points="13 2 4 14 11 14 10 22 20 9 13 9 13 2"/></symbol>
-<symbol id="i-earbud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="9" r="4"/><path d="M9 13v4a3 3 0 0 0 6 0v-2"/><circle cx="17" cy="15" r="2"/></symbol>
 <symbol id="i-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0V8z"/><line x1="12" y1="18" x2="12" y2="22"/></symbol>
 <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.6" y2="16.6"/></symbol>
 <symbol id="i-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/><path d="M2 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L21 8H6"/></symbol>
@@ -456,13 +409,10 @@ footer{ padding:80px 0 0; }
 <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.7 14.2c-.24.68-1.38 1.3-1.9 1.34-.5.05-1.05.24-3.6-.87-3.06-1.33-4.98-4.6-5.13-4.8-.15-.2-1.23-1.64-1.23-3.13 0-1.5.78-2.22 1.05-2.52.28-.3.6-.37.8-.37h.58c.18 0 .43-.07.67.5.24.6.83 2.06.9 2.2.07.15.12.32.02.52-.1.2-.15.32-.3.49-.15.18-.3.4-.44.53-.15.15-.3.3-.13.6.18.3.78 1.28 1.68 2.07 1.16 1.02 2.13 1.34 2.44 1.5.3.15.48.13.66-.08.18-.2.76-.87.96-1.17.2-.3.4-.25.66-.15.28.1 1.75.82 2.05.97.3.15.5.22.57.34.08.13.08.72-.16 1.4z"/></symbol>
 <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></symbol>
 <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.7c0-.9.25-1.5 1.55-1.5H17V4.3C16.6 4.25 15.4 4 14 4c-2.8 0-4.7 1.7-4.7 4.9v2H6.5v3.2h2.8V22h4.2z"/></symbol>
-<symbol id="i-youtube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6" width="19" height="12" rx="4"/><polygon points="10.5 9.5 15.5 12 10.5 14.5" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-earbud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="9" r="4"/><path d="M9 13v4a3 3 0 0 0 6 0v-2"/><circle cx="17" cy="15" r="2"/></symbol>
 <symbol id="i-fold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="6" width="9" height="12" rx="1.6"/><rect x="13" y="6" width="9" height="12" rx="1.6"/></symbol>
 </svg>
 
-<!-- ============================================================
-     BRAND LOGO (reused in header / footer / favicon-style mark)
-     ============================================================ -->
 <template id="logo-template">
   <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
@@ -476,9 +426,6 @@ footer{ padding:80px 0 0; }
   </svg>
 </template>
 
-<!-- ============================================================
-     HEADER
-     ============================================================ -->
 <header id="site-header">
   <div class="wrap nav-row">
     <a href="#top" class="brand" aria-label="MR MOBILES home">
@@ -515,7 +462,6 @@ footer{ padding:80px 0 0; }
   </div>
 </header>
 
-<!-- Mobile nav -->
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
   <a href="#shop" data-filter-link="ios">iOS Devices</a>
   <a href="#shop" data-filter-link="android">Android Devices</a>
@@ -528,17 +474,7 @@ footer{ padding:80px 0 0; }
 
 <main id="top">
 
-<!-- ============================================================
-     HERO
-     ============================================================ -->
 <section class="hero">
-  <svg class="hero-watermark" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid slice">
-    <defs><pattern id="wm" width="90" height="90" patternUnits="userSpaceOnUse">
-      <use href="#i-phone" width="34" height="34" x="10" y="10" stroke="#C9A667"/>
-    </pattern></defs>
-    <rect width="800" height="800" fill="url(#wm)"/>
-  </svg>
-
   <div class="wrap">
     <div class="hero-copy">
       <div class="hero-badges">
@@ -546,7 +482,7 @@ footer{ padding:80px 0 0; }
         <span class="mini-badge"><svg><use href="#i-check"/></svg> 42-Point Inspection</span>
       </div>
       <h1>A second phone should feel like <em>the first time.</em></h1>
-      <p class="lead">Mr Mobiles grades, tests and certifies every pre-owned iPhone and Android device we sell — plus premium special editions, accessories, gadgets, and expert repair &amp; unlocking for the phone you already own.</p>
+      <p class="lead">Mr Mobiles Hosur grades, tests and certifies every pre-owned iPhone and Android device we sell — plus premium special editions, genuine accessories, gadgets, and expert repair &amp; unlocking.</p>
       <div class="hero-cta">
         <a href="#shop" class="btn btn-gold">Browse Certified Phones</a>
         <a href="#services" class="btn btn-ghost">Book a Repair</a>
@@ -588,20 +524,17 @@ footer{ padding:80px 0 0; }
 
 <div class="wrap"><div class="divider-line"></div></div>
 
-<!-- ============================================================
-     CATEGORY TILES
-     ============================================================ -->
 <section id="categories">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Shop by category</span>
       <h2>Everything for your phone, in one shop.</h2>
-      <p>From your next handset to the case that protects it — browse the full Mr Mobiles range.</p>
+      <p>From your next handset to screen protectors and repair solutions — explore Mr Mobiles Hosur.</p>
     </div>
     <div class="cat-grid">
       <a class="cat-tile" href="#shop" data-filter-link="ios">
         <div class="ci"><svg><use href="#i-phone"/></svg></div>
-        <h4>iOS Devices</h4><p>iPhone &amp; iPad, every generation</p>
+        <h4>iOS Devices</h4><p>iPhone &amp; iPad, verified condition</p>
       </a>
       <a class="cat-tile" href="#shop" data-filter-link="android">
         <div class="ci"><svg><use href="#i-android"/></svg></div>
@@ -609,27 +542,24 @@ footer{ padding:80px 0 0; }
       </a>
       <a class="cat-tile" href="#shop" data-filter-link="premium">
         <div class="ci"><svg><use href="#i-crown"/></svg></div>
-        <h4>Premium Collection</h4><p>Limited &amp; special editions</p>
+        <h4>Premium Collection</h4><p>Limited &amp; flagship editions</p>
       </a>
       <a class="cat-tile" href="#shop" data-filter-link="accessories">
         <div class="ci"><svg><use href="#i-case"/></svg></div>
-        <h4>Accessories</h4><p>Cases, chargers, cables</p>
+        <h4>Accessories</h4><p>Cases, fast chargers &amp; cables</p>
       </a>
       <a class="cat-tile" href="#shop" data-filter-link="gadgets">
         <div class="ci"><svg><use href="#i-watch"/></svg></div>
-        <h4>Gadgets</h4><p>Watches, earbuds, speakers</p>
+        <h4>Gadgets</h4><p>Smartwatches, earbuds &amp; audio</p>
       </a>
       <a class="cat-tile" href="#services">
         <div class="ci"><svg><use href="#i-wrench"/></svg></div>
-        <h4>Repair &amp; Unlock</h4><p>Hardware, software, FRP</p>
+        <h4>Repair &amp; Unlock</h4><p>Hardware, screen &amp; FRP removal</p>
       </a>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     SHOP / PRODUCT GRID
-     ============================================================ -->
 <section id="shop">
   <div class="wrap">
     <div class="shop-head">
@@ -647,7 +577,7 @@ footer{ padding:80px 0 0; }
       </div>
     </div>
 
-    <div class="product-grid" id="productGrid"><!-- injected by JS --></div>
+    <div class="product-grid" id="productGrid"></div>
 
     <div class="shop-more">
       <button class="btn btn-ghost" id="loadMoreBtn">Show more devices</button>
@@ -655,44 +585,41 @@ footer{ padding:80px 0 0; }
   </div>
 </section>
 
-<!-- ============================================================
-     GRADING SCALE (informational — genuinely a graded scale, so numbering/labels are meaningful)
-     ============================================================ -->
 <section id="grading" style="background:var(--bg-soft);">
   <div class="wrap">
     <div class="section-head center" style="margin-bottom:56px;">
       <span class="eyebrow" style="justify-content:center;">Honest grading</span>
       <h2>You'll always know exactly what you're getting.</h2>
-      <p>Every device is inspected on 42 points — screen, body, battery, camera, ports and function — and graded before it's listed. No surprises.</p>
+      <p>Every device undergoes a 42-point quality check — screen, body, battery, camera, ports and motherboard integrity.</p>
     </div>
     <div class="grade-grid">
       <div class="grade-card featured">
         <div class="grade-badge-lg">A+</div>
         <h4>Like New</h4>
-        <p>No visible scratches even under close light. Battery and hardware performing at their best.</p>
+        <p>Flawless condition with zero visible blemishes. Maximum battery efficiency and like-new internals.</p>
         <div class="grade-meta">
           <div><span>Battery health</span><b>90%+</b></div>
-          <div><span>Cosmetic wear</span><b>None visible</b></div>
+          <div><span>Cosmetic wear</span><b>Zero visible</b></div>
           <div><span>Warranty</span><b>180 days</b></div>
         </div>
       </div>
       <div class="grade-card">
         <div class="grade-badge-lg">A</div>
         <h4>Excellent</h4>
-        <p>Minor signs of use you'd need to look for. Screen and body in great shape, works flawlessly.</p>
+        <p>Minimal micro-signs of gentle handling. Screen and cameras pristine, functions 100% like new.</p>
         <div class="grade-meta">
           <div><span>Battery health</span><b>85%+</b></div>
-          <div><span>Cosmetic wear</span><b>Light, minor</b></div>
+          <div><span>Cosmetic wear</span><b>Minor, subtle</b></div>
           <div><span>Warranty</span><b>180 days</b></div>
         </div>
       </div>
       <div class="grade-card">
         <div class="grade-badge-lg">B</div>
-        <h4>Good</h4>
-        <p>Works perfectly with visible wear consistent with age — our best-value pick for budget buyers.</p>
+        <h4>Good Value</h4>
+        <p>100% functionally sound with minor normal exterior wear — optimal price-to-performance choice.</p>
         <div class="grade-meta">
           <div><span>Battery health</span><b>80%+</b></div>
-          <div><span>Cosmetic wear</span><b>Visible, minor dents</b></div>
+          <div><span>Cosmetic wear</span><b>Light cosmetic wear</b></div>
           <div><span>Warranty</span><b>90 days</b></div>
         </div>
       </div>
@@ -700,121 +627,108 @@ footer{ padding:80px 0 0; }
   </div>
 </section>
 
-<!-- ============================================================
-     TRUST BAR
-     ============================================================ -->
 <div class="trust-bar">
   <div class="wrap trust-grid">
     <div><strong>10,000+</strong><span>Phones certified &amp; sold</span></div>
     <div><strong>4.9/5</strong><span>Rated by 2,300+ customers</span></div>
-    <div><strong>180 Days</strong><span>Warranty on every device</span></div>
-    <div><strong>Same-Day</strong><span>Repair for most issues</span></div>
+    <div><strong>180 Days</strong><span>Warranty on certified phones</span></div>
+    <div><strong>Quick Turnaround</strong><span>Same-day store repairs</span></div>
   </div>
 </div>
 
-<!-- ============================================================
-     SERVICES — Hardware / Software / FRP
-     ============================================================ -->
 <section id="services">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Repair studio</span>
       <h2>Hardware, software &amp; unlocking — done properly.</h2>
-      <p>Our in-house technicians handle everything from a cracked screen to a locked-out device, with genuine parts and a service warranty on every job.</p>
+      <p>Visit our Hosur studio or message us on WhatsApp for rapid diagnosis, genuine replacement parts, and upfront pricing.</p>
     </div>
 
     <div class="services-grid">
       <div class="service-card">
         <div class="si"><svg><use href="#i-chip"/></svg></div>
         <h3>Hardware Repair</h3>
-        <p class="desc">Physical faults, fixed with genuine or OEM-grade parts and tested before handover.</p>
+        <p class="desc">OEM-grade display replacements, fast battery swaps, charging port repairs, and speaker fixes.</p>
         <ul>
-          <li><svg><use href="#i-check"/></svg> Screen &amp; display replacement</li>
-          <li><svg><use href="#i-check"/></svg> Battery replacement</li>
-          <li><svg><use href="#i-check"/></svg> Charging port &amp; camera module</li>
-          <li><svg><use href="#i-check"/></svg> Water &amp; liquid damage recovery</li>
+          <li><svg><use href="#i-check"/></svg> Screen &amp; OLED display renewal</li>
+          <li><svg><use href="#i-check"/></svg> High-capacity battery replacements</li>
+          <li><svg><use href="#i-check"/></svg> Camera module &amp; lens repair</li>
+          <li><svg><use href="#i-check"/></svg> Water &amp; short circuit recovery</li>
         </ul>
         <div class="service-price"><span>Starting at</span><strong>₹499</strong></div>
-        <a href="#" class="btn btn-wa btn-block wa-service" data-service="Hardware Repair">Book on WhatsApp</a>
+        <a href="#" class="btn btn-wa btn-block wa-service" data-service="Hardware Repair">Book via WhatsApp</a>
       </div>
 
       <div class="service-card">
         <div class="si"><svg><use href="#i-wrench"/></svg></div>
         <h3>Software Repair</h3>
-        <p class="desc">Operating system faults sorted quickly, with your data handled carefully.</p>
+        <p class="desc">OS recovery, boot loops, system lag resolution, and secure file backups.</p>
         <ul>
-          <li><svg><use href="#i-check"/></svg> Boot loop &amp; OS crash fixes</li>
-          <li><svg><use href="#i-check"/></svg> Virus &amp; malware cleanup</li>
-          <li><svg><use href="#i-check"/></svg> Data recovery &amp; backup</li>
-          <li><svg><use href="#i-check"/></svg> IMEI &amp; baseband repair</li>
+          <li><svg><use href="#i-check"/></svg> Boot loop &amp; Apple logo stuck fix</li>
+          <li><svg><use href="#i-check"/></svg> Android flashing &amp; OS rollback</li>
+          <li><svg><use href="#i-check"/></svg> Safe memory &amp; data retrieval</li>
+          <li><svg><use href="#i-check"/></svg> Network &amp; baseband repairs</li>
         </ul>
         <div class="service-price"><span>Starting at</span><strong>₹299</strong></div>
-        <a href="#" class="btn btn-wa btn-block wa-service" data-service="Software Repair">Book on WhatsApp</a>
+        <a href="#" class="btn btn-wa btn-block wa-service" data-service="Software Repair">Book via WhatsApp</a>
       </div>
 
       <div class="service-card">
         <div class="si"><svg><use href="#i-lock"/></svg></div>
         <h3>FRP &amp; Unlock Service</h3>
-        <p class="desc">Locked out after a reset because you forgot the old Google or Apple ID? We remove Factory Reset Protection (FRP), iCloud locks and network locks — safely, and with proof of ownership required.</p>
+        <p class="desc">Locked out after a hard reset? We safely clear Google FRP locks and network restrictions. Valid proof of purchase/ID required.</p>
         <ul>
-          <li><svg><use href="#i-check"/></svg> Google FRP removal (Android)</li>
-          <li><svg><use href="#i-check"/></svg> iCloud activation lock support</li>
-          <li><svg><use href="#i-check"/></svg> Carrier network unlocking</li>
-          <li><svg><use href="#i-check"/></svg> Ownership verification required</li>
+          <li><svg><use href="#i-check"/></svg> Samsung / Mi / Vivo FRP removal</li>
+          <li><svg><use href="#i-check"/></svg> Forgotten pattern / passcode unlock</li>
+          <li><svg><use href="#i-check"/></svg> SIM carrier network unblocking</li>
+          <li><svg><use href="#i-check"/></svg> Verified ownership protocol</li>
         </ul>
         <div class="service-price"><span>Starting at</span><strong>₹799</strong></div>
-        <a href="#" class="btn btn-wa btn-block wa-service" data-service="FRP / Unlock Service">Book on WhatsApp</a>
+        <a href="#" class="btn btn-wa btn-block wa-service" data-service="FRP / Unlock Service">Book via WhatsApp</a>
       </div>
     </div>
 
     <div class="process-strip">
-      <div class="p-step"><div class="num">1</div><h5>Free Diagnosis</h5><p>Bring it in or send us photos on WhatsApp.</p></div>
-      <div class="p-step"><div class="num">2</div><h5>Get a Quote</h5><p>Transparent pricing, no hidden charges, in under 30 minutes.</p></div>
-      <div class="p-step"><div class="num">3</div><h5>We Repair</h5><p>Most issues fixed the same day, in front of you if you wait.</p></div>
-      <div class="p-step"><div class="num">4</div><h5>Test &amp; Deliver</h5><p>Full function test, plus a 90-day service warranty.</p></div>
+      <div class="p-step"><div class="num">1</div><h5>Free Checkup</h5><p>Bring it to Tank Street or share photos on WhatsApp.</p></div>
+      <div class="p-step"><div class="num">2</div><h5>Clear Estimate</h5><p>Transparent cost quotation with no surprises.</p></div>
+      <div class="p-step"><div class="num">3</div><h5>Expert Repair</h5><p>Rapid turnaround by certified technicians.</p></div>
+      <div class="p-step"><div class="num">4</div><h5>Test &amp; Handover</h5><p>Full hardware diagnostic + service warranty.</p></div>
     </div>
 
     <div class="faq-wrap">
       <div class="faq-item">
-        <button class="faq-q">What exactly is FRP, in plain terms? <svg><use href="#i-plus"/></svg></button>
-        <div class="faq-a"><p>FRP (Factory Reset Protection) is a security feature that locks an Android phone to its last Google account after a factory reset. If you bought a used phone, inherited one, or forgot your own login, the phone becomes unusable until that lock is verified or removed. We handle this safely and always ask for proof of ownership first.</p></div>
+        <button class="faq-q">What is FRP and why is my device locked? <svg><use href="#i-plus"/></svg></button>
+        <div class="faq-a"><p>Factory Reset Protection (FRP) is a security safeguard requiring the previously associated Google ID after resetting. If you forgot your password or acquired a used phone, we unlock it after verifying your ownership documentation.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q">Is unlocking a phone legal? <svg><use href="#i-plus"/></svg></button>
-        <div class="faq-a"><p>Yes — unlocking a device you legitimately own is legal. That's exactly why we require proof of ownership (a bill, box, or ID match) before we start any unlock or FRP removal job.</p></div>
+        <button class="faq-q">Where is your Hosur store located? <svg><use href="#i-plus"/></svg></button>
+        <div class="faq-a"><p>We are situated at Tank Street, right opposite New Colour Lab in Hosur (635109). Walk in anytime during opening hours!</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q">Do you buy phones with a broken screen or dead battery? <svg><use href="#i-plus"/></svg></button>
-        <div class="faq-a"><p>Yes. Use the estimator in the "Sell Your Phone" section below — it accounts for damage and still gives you a fair, honest quote.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q">What warranty do repairs come with? <svg><use href="#i-plus"/></svg></button>
-        <div class="faq-a"><p>Every repair carries a 90-day service warranty covering the part and the work. Certified pre-owned phones carry a 90–180 day warranty depending on grade.</p></div>
+        <button class="faq-q">What warranty do you provide on phones and repairs? <svg><use href="#i-plus"/></svg></button>
+        <div class="faq-a"><p>Certified phones include 90 to 180 days of comprehensive coverage. All workshop repairs carry an explicit 90-day warranty on replaced parts.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     SELL YOUR PHONE
-     ============================================================ -->
 <section id="sell">
   <div class="sell-section">
     <div>
-      <span class="eyebrow">Sell or trade in</span>
-      <h2 style="font-size:32px; line-height:1.2;">Turn your old phone into instant cash.</h2>
-      <p style="color:var(--text-dim); margin-top:14px; font-size:15px;">No waiting, no lowballing. Tell us about your device and get a same-day payout.</p>
+      <span class="eyebrow">Sell or exchange</span>
+      <h2 style="font-size:32px; line-height:1.2;">Turn your current phone into instant money.</h2>
+      <p style="color:var(--text-dim); margin-top:14px; font-size:15px;">Get an immediate valuation and same-day UPI or cash payment at our Hosur store.</p>
       <div class="sell-steps">
-        <div><span class="n">1</span><div><h5>Tell us the model &amp; condition</h5><p>Two minutes, no store visit needed.</p></div></div>
-        <div><span class="n">2</span><div><h5>Get an instant estimate</h5><p>A fair price range, upfront.</p></div></div>
-        <div><span class="n">3</span><div><h5>Walk in or courier pickup</h5><p>Get paid the same day, by cash or UPI.</p></div></div>
+        <div><span class="n">1</span><div><h5>Tell us model &amp; condition</h5><p>Share details in under 2 minutes.</p></div></div>
+        <div><span class="n">2</span><div><h5>Receive immediate valuation</h5><p>Competitive, market-aligned pricing.</p></div></div>
+        <div><span class="n">3</span><div><h5>Visit store &amp; get paid</h5><p>Instant payout via UPI or Cash.</p></div></div>
       </div>
-      <a href="#" class="btn btn-ghost" id="talkHumanBtn">Talk to us on WhatsApp instead</a>
+      <a href="#" class="btn btn-ghost" id="talkHumanBtn">Chat Directly on WhatsApp</a>
     </div>
 
     <div class="estimator">
-      <h4>Quick resale estimator</h4>
-      <p>A ballpark figure — final price confirmed after inspection.</p>
+      <h4>Quick resale calculator</h4>
+      <p>Estimated price range — final quote confirmed at shop check.</p>
       <form id="estimatorForm">
         <div class="form-row">
           <label for="estBrand">Brand</label>
@@ -827,7 +741,7 @@ footer{ padding:80px 0 0; }
           </select>
         </div>
         <div class="form-row">
-          <label for="estAge">Approximate age</label>
+          <label for="estAge">Device Age</label>
           <select id="estAge">
             <option value="1">Under 1 year</option>
             <option value="2">1–2 years</option>
@@ -836,99 +750,72 @@ footer{ padding:80px 0 0; }
           </select>
         </div>
         <div class="form-row">
-          <label for="estCondition">Condition</label>
+          <label for="estCondition">Cosmetic / Working Condition</label>
           <select id="estCondition">
-            <option value="1">Excellent — like new</option>
-            <option value="0.8">Good — minor wear</option>
-            <option value="0.6">Fair — visible damage</option>
-            <option value="0.4">Not working / broken screen</option>
+            <option value="1">Pristine / Like new</option>
+            <option value="0.8">Good / Minor signs of use</option>
+            <option value="0.6">Fair / Scratches or dents</option>
+            <option value="0.4">Damaged screen / non-working</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-gold btn-block">Get My Estimate</button>
+        <button type="submit" class="btn btn-gold btn-block">Calculate Resale Price</button>
       </form>
       <div class="estimate-result" id="estimateResult">
         <div class="amt" id="estimateAmt">₹0 – ₹0</div>
-        <p>Estimated resale value. Get an exact quote in person or via WhatsApp — mention this estimate for a fast confirmation.</p>
+        <p>Estimated value range. Bring your phone to our Tank Street shop or text us on WhatsApp to lock in your payout.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     TESTIMONIALS
-     ============================================================ -->
-<section id="testimonials" style="background:var(--bg-soft);">
-  <div class="wrap">
-    <div class="section-head center">
-      <span class="eyebrow" style="justify-content:center;">Customer stories</span>
-      <h2>Trusted by thousands of phone owners.</h2>
-    </div>
-    <div class="testi-grid">
-      <div class="testi-card">
-        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
-        <p class="quote">"I was nervous buying a used iPhone, but the grading report matched exactly what arrived. Battery health was even better than listed."</p>
-        <div class="testi-person"><span class="avatar-ring">R</span><div><strong>Rahul M.</strong><span>Bought a Grade A+ iPhone 13 Pro</span></div></div>
-      </div>
-      <div class="testi-card">
-        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
-        <p class="quote">"My phone was FRP locked after I forgot my old Gmail. They asked for my invoice, verified it, and had it unlocked within the hour."</p>
-        <div class="testi-person"><span class="avatar-ring">S</span><div><strong>Sana K.</strong><span>FRP Unlock Service</span></div></div>
-      </div>
-      <div class="testi-card">
-        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
-        <p class="quote">"Sold my old S21 for more than two other shops quoted, and got paid in cash the same afternoon. Zero hassle."</p>
-        <div class="testi-person"><span class="avatar-ring">A</span><div><strong>Arjun P.</strong><span>Sell Your Phone</span></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     NEWSLETTER
-     ============================================================ -->
-<section style="padding:0 0 96px;">
-  <div class="news-strip">
-    <div>
-      <h3>New premium arrivals, first.</h3>
-      <p>One short email a week — restocks, special editions, and repair tips. No spam.</p>
-    </div>
-    <form class="news-form" id="newsForm">
-      <input type="email" placeholder="you@email.com" required>
-      <button type="submit">Notify Me</button>
-    </form>
-  </div>
-</section>
-
-<!-- ============================================================
-     CONTACT
-     ============================================================ -->
 <section id="contact" style="background:var(--bg-soft);">
   <div class="wrap contact-grid">
     <div>
-      <span class="eyebrow">Visit or reach us</span>
-      <h2 style="font-size:32px;">We're happy to help, in-store or online.</h2>
+      <span class="eyebrow">Visit or call us</span>
+      <h2 style="font-size:32px;">Hosur Store &amp; Support Hub</h2>
       <div class="contact-list">
-        <div><span class="ci"><svg><use href="#i-pin"/></svg></span><div><h5>Store address</h5><p>Shop No. 12, Main Market Road,<br>Your City — 000000 <em style="color:var(--text-faint); font-style:normal;">(update this address)</em></p></div></div>
-        <div><span class="ci"><svg><use href="#i-phonecall"/></svg></span><div><h5>Call us</h5><p>+91 90000 00000 <em style="color:var(--text-faint); font-style:normal;">(update this number)</em></p></div></div>
-        <div><span class="ci"><svg><use href="#i-whatsapp"/></svg></span><div><h5>WhatsApp</h5><p>Fastest way to reach us — tap any "Order on WhatsApp" button on this site.</p></div></div>
-        <div><span class="ci"><svg><use href="#i-mail"/></svg></span><div><h5>Email</h5><p>hello@mrmobiles.example</p></div></div>
-        <div><span class="ci"><svg><use href="#i-clock"/></svg></span><div><h5>Store hours</h5><p>Mon–Sat, 10:00 AM – 9:00 PM · Sunday 11:00 AM – 6:00 PM</p></div></div>
+        <div>
+          <span class="ci"><svg><use href="#i-pin"/></svg></span>
+          <div>
+            <h5>Our Shop Address</h5>
+            <p><strong>Mr Mobiles</strong><br>Tank Street, Oppo New Colour Lab,<br>Hosur, Tamil Nadu — 635109</p>
+          </div>
+        </div>
+        <div>
+          <span class="ci"><svg><use href="#i-phonecall"/></svg></span>
+          <div>
+            <h5>Call or WhatsApp</h5>
+            <p><a href="tel:+919385847322" style="color:var(--gold-light); font-weight:700;">+91 93858 47322</a></p>
+          </div>
+        </div>
+        <div>
+          <span class="ci"><svg><use href="#i-mail"/></svg></span>
+          <div>
+            <h5>Official Email</h5>
+            <p><a href="mailto:contact@mrmobiles.in">contact@mrmobiles.in</a></p>
+          </div>
+        </div>
+        <div>
+          <span class="ci"><svg><use href="#i-clock"/></svg></span>
+          <div>
+            <h5>Business Hours</h5>
+            <p>Mon – Sat: 10:00 AM – 9:00 PM<br>Sunday: 11:00 AM – 7:00 PM</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="map-block">
-      <div class="map-pin">
-        <svg><use href="#i-pin"/></svg>
-        <span>Replace this block with your embedded Google Maps location</span>
-      </div>
+      <iframe 
+        src="https://www.google.com/maps?q=Tank+Street,+Hosur+635109&output=embed"
+        loading="lazy"
+        title="MR Mobiles Hosur Location">
+      </iframe>
     </div>
   </div>
 </section>
 
 </main>
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
 <footer>
   <div class="wrap">
     <div class="footer-grid">
@@ -937,101 +824,85 @@ footer{ padding:80px 0 0; }
           <span class="brand-mark" id="logo-slot-2"></span>
           <span class="brand-text"><span class="name">Mr Mobiles</span><span class="tag">CERTIFIED · PREMIUM · REPAIR</span></span>
         </div>
-        <p>Certified pre-owned phones, premium special editions, accessories, gadgets, and a full hardware / software / FRP repair studio — all under one roof.</p>
+        <p>Tank Street, Oppo New Colour Lab, Hosur 635109.<br>Your trusted store for certified handsets, high-grade accessories, and expert smartphone repairs.</p>
         <div class="social-row">
-          <a href="#" aria-label="WhatsApp"><svg><use href="#i-whatsapp"/></svg></a>
+          <a href="https://wa.me/919385847322" aria-label="WhatsApp"><svg><use href="#i-whatsapp"/></svg></a>
           <a href="#" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
           <a href="#" aria-label="Facebook"><svg><use href="#i-facebook"/></svg></a>
-          <a href="#" aria-label="YouTube"><svg><use href="#i-youtube"/></svg></a>
         </div>
       </div>
       <div class="footer-col">
         <h5>Shop</h5>
         <ul>
-          <li><a href="#shop" data-filter-link="ios">iOS Devices</a></li>
-          <li><a href="#shop" data-filter-link="android">Android Devices</a></li>
-          <li><a href="#shop" data-filter-link="premium">Premium Collection</a></li>
+          <li><a href="#shop" data-filter-link="ios">iPhones &amp; iPads</a></li>
+          <li><a href="#shop" data-filter-link="android">Android Flagships</a></li>
+          <li><a href="#shop" data-filter-link="premium">Special Editions</a></li>
           <li><a href="#shop" data-filter-link="accessories">Accessories</a></li>
-          <li><a href="#shop" data-filter-link="gadgets">Gadgets</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h5>Services</h5>
         <ul>
-          <li><a href="#services">Hardware Repair</a></li>
-          <li><a href="#services">Software Repair</a></li>
-          <li><a href="#services">FRP &amp; Unlock</a></li>
-          <li><a href="#sell">Sell Your Phone</a></li>
-          <li><a href="#grading">Grading Scale</a></li>
+          <li><a href="#services">Display &amp; Glass Repair</a></li>
+          <li><a href="#services">Battery Replacement</a></li>
+          <li><a href="#services">FRP &amp; Device Unlock</a></li>
+          <li><a href="#sell">Sell Old Device</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h5>Company</h5>
+        <h5>Store Details</h5>
         <ul>
-          <li><a href="#testimonials">Reviews</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#">Warranty Policy</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#contact">Hosur Store Map</a></li>
+          <li><a href="tel:+919385847322">+91 93858 47322</a></li>
+          <li><a href="mailto:contact@mrmobiles.in">contact@mrmobiles.in</a></li>
+          <li><a href="https://www.mrmobiles.in">www.mrmobiles.in</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© <span id="year"></span> Mr Mobiles. All rights reserved.</p>
+      <p>© <span id="year"></span> Mr Mobiles (Hosur). All rights reserved.</p>
       <div class="pay-row">
-        <span>Cash</span><span>UPI</span><span>Cards</span><span>EMI Available</span>
+        <span>Google Pay</span><span>PhonePe</span><span>UPI</span><span>Cash / Cards</span>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- ============================================================
-     CART DRAWER
-     ============================================================ -->
 <div class="overlay" id="overlay"></div>
 <aside class="cart-drawer" id="cartDrawer">
   <div class="cart-head">
-    <h4>Your Cart</h4>
+    <h4>Your Order Cart</h4>
     <button class="icon-btn" id="closeCart"><svg><use href="#i-close"/></svg></button>
   </div>
   <div class="cart-items" id="cartItems"></div>
   <div class="cart-foot">
     <div class="total-row"><span>Total</span><span id="cartTotal">₹0</span></div>
-    <a href="#" class="btn btn-wa btn-block" id="checkoutWa">Checkout on WhatsApp</a>
+    <a href="#" class="btn btn-wa btn-block" id="checkoutWa">Send Order via WhatsApp</a>
   </div>
 </aside>
 
-<!-- ============================================================
-     QUICK VIEW MODAL
-     ============================================================ -->
 <div class="modal" id="quickView">
   <button class="modal-close" id="closeModal"><svg><use href="#i-close"/></svg></button>
-  <div class="modal-body" id="modalBody"><!-- injected by JS --></div>
+  <div class="modal-body" id="modalBody"></div>
 </div>
 
 <script>
-/* ============================================================
-   CONFIG — edit these two lines for your real shop details
-   ============================================================ */
-const WHATSAPP_NUMBER = "919000000000"; // replace with your number, country code + number, no spaces or +
+const WHATSAPP_NUMBER = "919385847322";
 const CURRENCY = "₹";
 
-/* ============================================================
-   PRODUCT DATA — add/edit products here
-   ============================================================ */
 const PRODUCTS = [
   {id:1, name:"iPhone 13 Pro 128GB", cat:"ios", brand:"Apple", grade:"A+", price:52999, old:79900, specs:"128GB · Graphite · Battery 91%", icon:"i-phone"},
   {id:2, name:"iPhone 12 64GB", cat:"ios", brand:"Apple", grade:"A", price:28499, old:41900, specs:"64GB · Blue · Battery 87%", icon:"i-phone"},
   {id:3, name:"iPhone 11 128GB", cat:"ios", brand:"Apple", grade:"B", price:19999, old:32900, specs:"128GB · Black · Battery 83%", icon:"i-phone"},
-  {id:4, name:"Galaxy S22 Ultra", cat:"android", brand:"Samsung", grade:"A+", price:44999, old:71999, specs:"256GB · Phantom Black · Battery 93%", icon:"i-android"},
+  {id:4, name:"Galaxy S22 Ultra 5G", cat:"android", brand:"Samsung", grade:"A+", price:44999, old:71999, specs:"256GB · Phantom Black · Battery 93%", icon:"i-android"},
   {id:5, name:"OnePlus 11R 5G", cat:"android", brand:"OnePlus", grade:"A", price:21999, old:33999, specs:"128GB · Sonic Black · Battery 89%", icon:"i-android"},
-  {id:6, name:"Pixel 7", cat:"android", brand:"Google", grade:"A", price:26499, old:39999, specs:"128GB · Obsidian · Battery 88%", icon:"i-android"},
+  {id:6, name:"Google Pixel 7 128GB", cat:"android", brand:"Google", grade:"A", price:26499, old:39999, specs:"128GB · Obsidian · Battery 88%", icon:"i-android"},
   {id:7, name:"iPhone 14 Pro — Deep Purple", cat:"premium", brand:"Apple", grade:"A+", price:68999, old:99900, specs:"Special edition box · Battery 96%", icon:"i-phone", premium:true},
-  {id:8, name:"Galaxy Z Fold4 — Limited", cat:"premium", brand:"Samsung", grade:"A", price:54999, old:89999, specs:"Limited edition · Battery 90%", icon:"i-fold", premium:true},
-  {id:9, name:"MagSafe Leather Case", cat:"accessories", brand:"Mr Mobiles", price:899, specs:"Fits iPhone 12–15 series", icon:"i-case"},
-  {id:10, name:"65W GaN Fast Charger", cat:"accessories", brand:"Mr Mobiles", price:1299, specs:"USB-C · Dual port", icon:"i-plug"},
-  {id:11, name:"Wireless ANC Earbuds", cat:"gadgets", brand:"Mr Mobiles", price:2499, specs:"Active noise cancelling · 30hr case", icon:"i-earbud"},
-  {id:12, name:"Smartwatch Pro Series", cat:"gadgets", brand:"Mr Mobiles", price:3999, specs:"AMOLED · Heart-rate · 7-day battery", icon:"i-watch"},
+  {id:8, name:"Galaxy Z Fold4 5G", cat:"premium", brand:"Samsung", grade:"A", price:54999, old:89999, specs:"Dual Display · Battery 90%", icon:"i-fold", premium:true},
+  {id:9, name:"Magnetic Protective Case", cat:"accessories", brand:"Mr Mobiles", price:899, specs:"Compatible with iPhone 12–16 series", icon:"i-case"},
+  {id:10, name:"65W GaN Dual Fast Charger", cat:"accessories", brand:"Mr Mobiles", price:1299, specs:"Type-C Power Delivery · Fast charge", icon:"i-plug"},
+  {id:11, name:"ANC Wireless Earbuds", cat:"gadgets", brand:"Mr Mobiles", price:2499, specs:"Active noise cancellation · 30hr backup", icon:"i-earbud"},
+  {id:12, name:"Pro Smartwatch AMOLED", cat:"gadgets", brand:"Mr Mobiles", price:3999, specs:"Calling · AMOLED · Health monitoring", icon:"i-watch"},
 ];
 
 let currentFilter = "all";
@@ -1040,7 +911,6 @@ let cart = [];
 
 function fmt(n){ return CURRENCY + n.toLocaleString("en-IN"); }
 
-/* ---------- Render product grid ---------- */
 function renderProducts(){
   const grid = document.getElementById("productGrid");
   const q = (document.getElementById("searchInput").value || "").toLowerCase().trim();
@@ -1064,8 +934,8 @@ function renderProducts(){
           ${p.old ? `<span class="old">${fmt(p.old)}</span>` : ""}
         </div>
         <div class="add-row">
-          <button class="btn btn-ghost btn-sm" data-view="${p.id}">Quick View</button>
-          <button class="btn btn-gold btn-sm" data-add="${p.id}">Add to Cart</button>
+          <button class="btn btn-ghost btn-sm" data-view="${p.id}">View</button>
+          <button class="btn btn-gold btn-sm" data-add="${p.id}">Add</button>
         </div>
       </div>
     </div>
@@ -1077,7 +947,6 @@ function renderProducts(){
   grid.querySelectorAll("[data-view]").forEach(el => el.addEventListener("click", () => openQuickView(+el.dataset.view)));
 }
 
-/* ---------- Filters ---------- */
 document.getElementById("filterRow").addEventListener("click", e => {
   const btn = e.target.closest(".chip");
   if(!btn) return;
@@ -1101,7 +970,6 @@ document.querySelectorAll("[data-filter-link]").forEach(a => {
 document.getElementById("loadMoreBtn").addEventListener("click", () => { visibleCount += 8; renderProducts(); });
 document.getElementById("searchInput").addEventListener("input", () => { visibleCount = 8; renderProducts(); });
 
-/* ---------- Cart ---------- */
 function addToCart(id){
   const p = PRODUCTS.find(x => x.id === id);
   const existing = cart.find(x => x.id === id);
@@ -1120,7 +988,7 @@ function renderCart(){
   const wrap = document.getElementById("cartItems");
   document.getElementById("cartCount").textContent = cart.reduce((s,i)=>s+i.qty,0);
   if(cart.length === 0){
-    wrap.innerHTML = `<div class="cart-empty">Your cart is empty.<br>Browse the catalogue and add a device or accessory.</div>`;
+    wrap.innerHTML = `<div class="cart-empty">Your cart is empty.<br>Browse our devices or accessories.</div>`;
   } else {
     wrap.innerHTML = cart.map(item => `
       <div class="cart-item">
@@ -1144,12 +1012,11 @@ function renderCart(){
 
   const lines = cart.map(i => `• ${i.name} x${i.qty} — ${fmt(i.price*i.qty)}`).join("%0A");
   const msg = cart.length
-    ? `Hi Mr Mobiles, I'd like to order:%0A${lines}%0A%0ATotal: ${fmt(total)}`
-    : `Hi Mr Mobiles, I'd like to know more about your phones.`;
+    ? `Hello Mr Mobiles (Hosur), I would like to purchase:%0A${lines}%0A%0ATotal: ${fmt(total)}%0AFrom www.mrmobiles.in`
+    : `Hello Mr Mobiles, I would like to inquire about devices available at your Hosur store.`;
   document.getElementById("checkoutWa").href = `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
 
-/* Cart drawer open/close */
 const overlay = document.getElementById("overlay");
 const cartDrawer = document.getElementById("cartDrawer");
 function openCart(){ cartDrawer.classList.add("show"); overlay.classList.add("show"); }
@@ -1157,7 +1024,6 @@ function closeCartFn(){ cartDrawer.classList.remove("show"); if(!document.getEle
 document.getElementById("cartBtn").addEventListener("click", openCart);
 document.getElementById("closeCart").addEventListener("click", closeCartFn);
 
-/* ---------- Quick view modal ---------- */
 const quickView = document.getElementById("quickView");
 function openQuickView(id){
   const p = PRODUCTS.find(x => x.id === id);
@@ -1171,8 +1037,8 @@ function openQuickView(id){
       <h3>${p.name}</h3>
       <div class="price-row"><span class="now">${fmt(p.price)}</span>${p.old ? `<span class="old">${fmt(p.old)}</span>`:""}</div>
       <div class="specs-list">
-        <div><span>Condition</span><b>${p.grade ? "Grade "+p.grade : "New"}</b></div>
-        <div><span>Details</span><b>${p.specs}</b></div>
+        <div><span>Condition</span><b>${p.grade ? "Grade "+p.grade : "Certified"}</b></div>
+        <div><span>Specifications</span><b>${p.specs}</b></div>
         <div><span>Warranty</span><b>${p.cat==="accessories"||p.cat==="gadgets" ? "6 months" : "180 days"}</b></div>
       </div>
       <button class="btn btn-gold btn-block" data-add="${p.id}" id="modalAddBtn">Add to Cart</button>
@@ -1185,21 +1051,19 @@ function closeModalFn(){ quickView.classList.remove("show"); if(!cartDrawer.clas
 document.getElementById("closeModal").addEventListener("click", closeModalFn);
 overlay.addEventListener("click", () => { closeCartFn(); closeModalFn(); closeMobileNav(); });
 
-/* ---------- Service booking via WhatsApp ---------- */
 document.querySelectorAll(".wa-service").forEach(btn => {
   btn.addEventListener("click", e => {
     e.preventDefault();
     const service = btn.dataset.service;
-    const msg = `Hi Mr Mobiles, I'd like to book: ${service}. My device is:`;
+    const msg = `Hello Mr Mobiles (Hosur), I want to enquire about ${service}.`;
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
   });
 });
 document.getElementById("talkHumanBtn").addEventListener("click", e => {
   e.preventDefault();
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi Mr Mobiles, I want to sell my phone. Here are the details:")}`, "_blank");
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello Mr Mobiles, I want to sell/exchange my phone at your Hosur store.")}`, "_blank");
 });
 
-/* ---------- Sell/resale estimator (simple client-side ballpark calc) ---------- */
 const BASE_VALUE = { "Apple (iPhone)":55000, "Samsung":38000, "OnePlus":28000, "Google Pixel":30000, "Other Android":18000 };
 document.getElementById("estimatorForm").addEventListener("submit", e => {
   e.preventDefault();
@@ -1214,7 +1078,6 @@ document.getElementById("estimatorForm").addEventListener("submit", e => {
   document.getElementById("estimateResult").classList.add("show");
 });
 
-/* ---------- FAQ accordion ---------- */
 document.querySelectorAll(".faq-item").forEach(item => {
   const q = item.querySelector(".faq-q");
   const a = item.querySelector(".faq-a");
@@ -1225,33 +1088,27 @@ document.querySelectorAll(".faq-item").forEach(item => {
   });
 });
 
-/* ---------- Header scroll state ---------- */
 window.addEventListener("scroll", () => {
   document.getElementById("site-header").classList.toggle("scrolled", window.scrollY > 40);
 });
 
-/* ---------- Mobile nav ---------- */
 const mobileNav = document.getElementById("mobileNav");
 function closeMobileNav(){ mobileNav.classList.remove("show"); }
 document.getElementById("menuBtn").addEventListener("click", () => mobileNav.classList.toggle("show"));
 
-/* ---------- Newsletter (front-end only demo) ---------- */
 document.getElementById("newsForm").addEventListener("submit", e => {
   e.preventDefault();
   e.target.querySelector("button").textContent = "Subscribed ✓";
 });
 
-/* ---------- Inject logo SVG into slots ---------- */
 const logoHTML = document.getElementById("logo-template").innerHTML;
 document.getElementById("logo-slot-1").innerHTML = logoHTML;
 document.getElementById("logo-slot-2").innerHTML = logoHTML;
-
-/* ---------- Footer year ---------- */
 document.getElementById("year").textContent = new Date().getFullYear();
 
-/* ---------- Init ---------- */
 renderProducts();
 renderCart();
 </script>
 </body>
 </html>
+
