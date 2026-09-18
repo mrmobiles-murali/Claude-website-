@@ -1,6 +1,9 @@
 name: Deploy Mr Mobiles website
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
