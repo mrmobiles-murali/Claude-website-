@@ -18,3 +18,6 @@ Razorpay online payment integration is intentionally pending. Do not add live pa
 
 ## Brand
 Use **Mr Mobiles** (not “MR MOBILES”).
+
+## Deployment readiness
+The repository is prepared for GitHub Pages with a custom domain file, sitemap, robots rules and a deployment workflow. GitHub Pages must be enabled once in repository settings before the first deployment. DNS for mrmobiles.in must then point to the chosen host.
