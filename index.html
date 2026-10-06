@@ -6,7 +6,10 @@
   <title>Mr Mobiles Hosur | Shop, Repair, Exchange & Track</title>
   <meta name="description" content="Mr Mobiles Hosur — shop smartphones and accessories, book repairs, request sell/exchange quotes, pay securely and track your request online.">
   <link rel="canonical" href="https://mrmobiles.in/">
-  <meta name="theme-color" content="#07090d">\n  <link rel="preconnect" href="https://fonts.googleapis.com">\n  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#07090d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <meta property="og:title" content="Mr Mobiles Hosur">
   <meta property="og:description" content="Shop, repair, exchange, pay and track — one automated Mr Mobiles experience.">
   <meta property="og:type" content="website">
@@ -182,7 +185,27 @@
       .card{min-height:335px;border-radius:18px}.productMedia{height:175px}.productBody{padding:12px}.card h3{font-size:13px}.card p{font-size:10px;min-height:30px}.price{font-size:14px}.add{width:36px;height:36px;border-radius:11px}
       .stockLine{font-size:9px}.heart{width:32px;height:32px;border-radius:10px}.storefrontSection{padding-top:36px}
     }
-  </style>\n</head>
+  </style>
+
+  <style id="reference-storefront-exact">
+    .accessoryRail{display:flex;gap:8px;overflow-x:auto;margin:-6px 0 18px;scrollbar-width:none}.accessoryRail[hidden]{display:none}
+    .accessoryChip{flex:0 0 auto;border:1px solid rgba(255,255,255,.07);background:#0c1118;color:#a0a8b4;padding:9px 13px;border-radius:999px;font-size:11px;font-weight:800}
+    .accessoryChip.active{background:#168cff;border-color:#168cff;color:#fff}.productMedia{cursor:pointer}.card h3{cursor:pointer}.heart.saved,.detailHeart.saved{color:#ff7189}
+    .productModal{position:fixed;inset:0;z-index:150;background:rgba(2,4,7,.78);backdrop-filter:blur(14px);display:none;place-items:center;padding:18px}.productModal.open{display:grid}
+    .productModalCard{position:relative;width:min(900px,100%);max-height:min(880px,calc(100vh - 36px));overflow:auto;display:grid;grid-template-columns:1.05fr .95fr;background:#080c11;border:1px solid rgba(255,255,255,.08);border-radius:30px;box-shadow:0 35px 110px rgba(0,0,0,.62)}
+    .productClose{position:absolute;right:14px;top:14px;z-index:5;width:42px;height:42px;border:1px solid rgba(255,255,255,.10);border-radius:14px;background:rgba(7,9,13,.72);color:#fff;font-size:27px;backdrop-filter:blur(12px)}
+    .detailMedia{position:relative;min-height:570px;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 50% 34%,rgba(31,125,181,.25),transparent 42%),linear-gradient(160deg,#111820,#080c11)}
+    .detailMedia img{width:100%;height:100%;min-height:570px;object-fit:cover;display:block}.detailHeart{position:absolute;right:68px;top:14px;width:42px;height:42px;border:1px solid rgba(255,255,255,.10);border-radius:14px;background:rgba(7,9,13,.72);color:#fff;font-size:21px;backdrop-filter:blur(12px)}
+    .detailCounter{position:absolute;right:18px;bottom:18px;padding:7px 10px;border-radius:999px;background:rgba(7,9,13,.70);border:1px solid rgba(255,255,255,.08);font-size:11px;font-weight:800}
+    .detailBody{padding:38px 30px 28px;display:flex;flex-direction:column;justify-content:center}.detailBody h2{font-size:34px;line-height:1.05;margin:8px 0}.detailSub{color:var(--muted);font-size:13px;margin:0 0 15px}
+    .detailPriceLine{display:flex;align-items:center;gap:11px;margin-bottom:20px}.detailPriceLine strong{font-family:Sora,Manrope,sans-serif;font-size:28px;letter-spacing:-.05em}.inStock{padding:5px 8px;border-radius:999px;background:rgba(56,211,159,.12);color:#42dca7;font-size:10px;font-weight:900}
+    .detailSpecs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:8px 0 22px}.spec{min-height:74px;padding:10px 8px;border:1px solid rgba(255,255,255,.06);border-radius:15px;background:#0e141b;text-align:center;display:grid;place-items:center;align-content:center;gap:4px}.spec b{font-size:11px}.spec small{font-size:9px;color:#7f8996}
+    .variantBlock{margin-top:14px}.variantBlock>label{display:block;font-size:12px;font-weight:800;margin-bottom:9px}.variantRow,.colorRow{display:flex;gap:8px;flex-wrap:wrap}.variantBtn{min-width:70px;padding:9px 12px;border-radius:11px;border:1px solid rgba(255,255,255,.10);background:#0b1016;color:#cbd1d8;font-size:11px}.variantBtn.active{border-color:#168cff;color:#fff;box-shadow:0 0 0 1px #168cff inset}
+    .colorBtn{display:grid;place-items:center;gap:5px;background:transparent;border:0;color:#8f98a5;font-size:9px}.colorDot{width:32px;height:32px;border-radius:50%;border:2px solid #9ba4b0;box-shadow:0 0 0 2px #0b0f14 inset}.colorBtn.active .colorDot{outline:2px solid #168cff;outline-offset:3px}
+    .detailAdd{margin-top:26px;width:100%;min-height:54px;border:0;border-radius:15px;background:linear-gradient(180deg,#2498ff,#087fe9);color:#fff;font-weight:900;font-size:15px;box-shadow:0 18px 38px rgba(22,140,255,.20)}
+    @media(max-width:700px){.productModal{padding:0;background:#07090d}.productModalCard{width:100%;height:100%;max-height:none;border:0;border-radius:0;display:block;background:#07090d}.detailMedia{min-height:45vh;height:45vh}.detailMedia img{min-height:45vh;height:45vh;object-fit:cover}.detailBody{padding:20px 20px 110px;justify-content:flex-start}.detailBody h2{font-size:27px}.detailPriceLine strong{font-size:24px}.detailSpecs{grid-template-columns:repeat(4,1fr);gap:7px}.spec{min-height:66px;padding:8px 5px}.spec b{font-size:10px}.spec small{font-size:8px}.detailAdd{position:fixed;left:14px;right:14px;bottom:88px;width:auto;z-index:160}.productClose{left:14px;right:auto;top:14px}.detailHeart{right:14px;top:14px}}
+  </style>
+</head>
 <body>
 <header>
   <div class="wrap nav">
@@ -269,6 +292,14 @@
         <span class="catalogCount" id="catalogCount">Loading…</span>
       </div>
 
+      <div class="accessoryRail" id="accessoryRail" hidden>
+        <button class="accessoryChip active" data-accessory="all">All</button>
+        <button class="accessoryChip" data-accessory="case">Cases</button>
+        <button class="accessoryChip" data-accessory="charger">Chargers</button>
+        <button class="accessoryChip" data-accessory="audio">Audio</button>
+        <button class="accessoryChip" data-accessory="power">Power</button>
+        <button class="accessoryChip" data-accessory="other">More</button>
+      </div>
       <div class="productGrid" id="productGrid"><div class="muted">Loading live catalogue…</div></div>
       <div class="notice premiumNotice">Live stock, pre-owned condition, battery health and final unit availability are confirmed before fulfilment. Payments are verified by the Mr Mobiles backend.</div>
     </div>
@@ -368,6 +399,34 @@
   <div class="notice">Payment is verified on the Mr Mobiles server before the order is marked confirmed.</div>
 </aside>
 
+
+<div class="productModal" id="productModal" aria-hidden="true">
+  <div class="productModalCard">
+    <button class="productClose" id="productClose" aria-label="Close product details">×</button>
+    <div class="detailMedia">
+      <img id="detailImage" alt="Product image">
+      <button class="detailHeart" id="detailHeart" aria-label="Save product">♡</button>
+      <span class="detailCounter">1/1</span>
+    </div>
+    <div class="detailBody">
+      <div class="productBrand" id="detailBrand">MR MOBILES</div>
+      <h2 id="detailName">Product</h2>
+      <p class="detailSub" id="detailSubtitle"></p>
+      <div class="detailPriceLine"><strong id="detailPrice">₹0</strong><span class="inStock" id="detailStock">Stock confirm</span></div>
+      <div class="detailSpecs" id="detailSpecs"></div>
+      <div class="variantBlock" id="storageBlock">
+        <label>Select storage</label>
+        <div class="variantRow" id="detailStorage"></div>
+      </div>
+      <div class="variantBlock" id="colorBlock">
+        <label>Select color</label>
+        <div class="colorRow" id="detailColors"></div>
+      </div>
+      <button class="detailAdd" id="detailAdd">🛒 Add to Cart</button>
+    </div>
+  </div>
+</div>
+
 <div class="modal" id="successModal">
   <div class="modalCard">
     <div class="successIcon">✅</div>
@@ -391,7 +450,8 @@
 </nav>
 
 <script>
-  const API_HOST = 'https://appmrmobiles.vercel.app';\n  const API = API_HOST + '/api/web';
+  const API_HOST = 'https://appmrmobiles.vercel.app';
+  const API = API_HOST + '/api/web';
   const fallbackProducts = [
     {id:'iphone-13-pro-128',name:'iPhone 13 Pro 128GB',category:'phone',pricePaise:5299900,subtitle:'Pre-owned • Confirm condition & battery health',emoji:'📱'},
     {id:'iphone-12-64',name:'iPhone 12 64GB',category:'phone',pricePaise:2849900,subtitle:'Pre-owned • Confirm condition & battery health',emoji:'📱'},
@@ -408,6 +468,9 @@
     category: 'all',
     brand: 'all',
     query: '',
+    accessory: 'all',
+    activeProductId: null,
+    wishlist: JSON.parse(localStorage.getItem('mr_wishlist') || '[]'),
     cart: JSON.parse(localStorage.getItem('mr_cart') || '[]')
   };
 
@@ -469,7 +532,8 @@
     document.getElementById('featuredHeroSubtitle').textContent=product.subtitle||'Curated by Mr Mobiles';
     document.getElementById('featuredHeroPrice').textContent=money(product.pricePaise);
   }
-\n  function toast(message, good=false){
+
+  function toast(message, good=false){
     const el=document.getElementById('toast');
     el.textContent=message;
     el.className='toast show '+(good?'good':'bad');
@@ -482,6 +546,79 @@
     renderCart();
   }
 
+
+  const accessoryType = product => {
+    const text=[product.name,product.subtitle,product.model||''].join(' ').toLowerCase();
+    if(/case|cover|armor|magsafe/.test(text)) return 'case';
+    if(/charger|adapter|charging/.test(text)) return 'charger';
+    if(/ear|buds|audio|speaker|headphone|sound/.test(text)) return 'audio';
+    if(/power|battery|bank/.test(text)) return 'power';
+    return 'other';
+  };
+
+  const storageOptions = product => {
+    const found=String(product.name||'').match(/(64GB|128GB|256GB|512GB|1TB)/i);
+    const first=found?found[1].toUpperCase():'128GB';
+    const base=['64GB','128GB','256GB','512GB'];
+    return product.category==='phone' ? [first,...base.filter(x=>x!==first)].slice(0,4) : [];
+  };
+
+  const colorOptions = product => {
+    const brand=inferBrand(product);
+    if(brand==='Apple') return [['Graphite','#31333a'],['Silver','#d9d8d2'],['Gold','#c8ae86'],['Blue','#36536c']];
+    if(brand==='Samsung') return [['Phantom','#24262b'],['Burgundy','#70434c'],['Green','#576a60'],['White','#e5e5e1']];
+    if(brand==='Google') return [['Obsidian','#242424'],['Snow','#e7e5df'],['Lemongrass','#c9caa2']];
+    if(brand==='OnePlus') return [['Black','#202326'],['Blue','#4f6570'],['Silver','#b9bec1']];
+    return [['Black','#22262b'],['White','#e3e4e5']];
+  };
+
+  const detailSpecsFor = product => product.category==='phone'
+    ? [['Storage','Selectable'],['Condition','Confirmed'],['Network','Model check'],['Support','MR MOBILES']]
+    : [['Type','Accessory'],['Compatibility','Confirmed'],['Stock','Live check'],['Support','MR MOBILES']];
+
+  function toggleWishlist(id){
+    const has=state.wishlist.includes(id);
+    state.wishlist=has?state.wishlist.filter(x=>x!==id):[...state.wishlist,id];
+    localStorage.setItem('mr_wishlist',JSON.stringify(state.wishlist));
+    renderProducts();
+  }
+
+  function openProduct(id){
+    const product=state.products.find(p=>p.id===id)||fallbackProducts.find(p=>p.id===id);
+    if(!product) return;
+    state.activeProductId=id;
+    document.getElementById('detailImage').src=productImage(product);
+    document.getElementById('detailImage').alt=product.name;
+    document.getElementById('detailBrand').textContent=inferBrand(product);
+    document.getElementById('detailName').textContent=product.name;
+    document.getElementById('detailSubtitle').textContent=product.subtitle||'Mr Mobiles product';
+    document.getElementById('detailPrice').textContent=money(product.pricePaise);
+    document.getElementById('detailStock').textContent=typeof product.stockQty==='number'?product.stockQty+' in stock':'Stock confirm';
+    document.getElementById('detailSpecs').innerHTML=detailSpecsFor(product).map(([a,b])=>'<div class="spec"><b>'+escapeHtml(a)+'</b><small>'+escapeHtml(b)+'</small></div>').join('');
+
+    const storage=storageOptions(product);
+    document.getElementById('storageBlock').hidden=!storage.length;
+    document.getElementById('detailStorage').innerHTML=storage.map((x,i)=>'<button class="variantBtn '+(i===0?'active':'')+'" type="button">'+escapeHtml(x)+'</button>').join('');
+    document.querySelectorAll('#detailStorage .variantBtn').forEach(btn=>btn.onclick=()=>{document.querySelectorAll('#detailStorage .variantBtn').forEach(x=>x.classList.remove('active'));btn.classList.add('active');});
+
+    const colors=colorOptions(product);
+    document.getElementById('detailColors').innerHTML=colors.map((x,i)=>'<button class="colorBtn '+(i===0?'active':'')+'" type="button"><span class="colorDot" style="background:'+x[1]+'"></span><span>'+escapeHtml(x[0])+'</span></button>').join('');
+    document.querySelectorAll('#detailColors .colorBtn').forEach(btn=>btn.onclick=()=>{document.querySelectorAll('#detailColors .colorBtn').forEach(x=>x.classList.remove('active'));btn.classList.add('active');});
+
+    const heart=document.getElementById('detailHeart');
+    const saved=state.wishlist.includes(product.id);
+    heart.classList.toggle('saved',saved); heart.textContent=saved?'♥':'♡';
+    document.getElementById('productModal').classList.add('open');
+    document.getElementById('productModal').setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+  }
+
+  function closeProduct(){
+    document.getElementById('productModal').classList.remove('open');
+    document.getElementById('productModal').setAttribute('aria-hidden','true');
+    document.body.style.overflow='';
+  }
+
   function renderProducts(){
     const query=state.query.trim().toLowerCase();
     const products=state.products.filter(p=>{
@@ -490,19 +627,20 @@
       const brandOk=state.brand==='all'||brand===state.brand;
       const text=[p.name,p.subtitle,brand,p.model||''].join(' ').toLowerCase();
       const queryOk=!query||text.includes(query);
-      return catOk&&brandOk&&queryOk;
+      const accessoryOk=p.category!=='accessory'||state.accessory==='all'||accessoryType(p)===state.accessory;
+      return catOk&&brandOk&&queryOk&&accessoryOk;
     });
     const count=document.getElementById('catalogCount');
     if(count) count.textContent=products.length+' '+(products.length===1?'item':'items');
     document.getElementById('productGrid').innerHTML=products.map(p=>`
       <article class="card">
         <div class="productMedia">
-          <img src="${escapeHtml(productImage(p))}" alt="${escapeHtml(p.name)}" loading="lazy" referrerpolicy="no-referrer">
-          <button class="heart" type="button" aria-label="Save ${escapeHtml(p.name)}">♡</button>
+          <img src="${escapeHtml(productImage(p))}" alt="${escapeHtml(p.name)}" loading="lazy" referrerpolicy="no-referrer" data-view="${escapeHtml(p.id)}">
+          <button class="heart ${state.wishlist.includes(p.id)?'saved':''}" type="button" data-wish="${escapeHtml(p.id)}" aria-label="Save ${escapeHtml(p.name)}">${state.wishlist.includes(p.id)?'♥':'♡'}</button>
         </div>
         <div class="productBody">
           <div class="productBrand">${escapeHtml(inferBrand(p))}</div>
-          <h3>${escapeHtml(p.name)}</h3>
+          <h3 data-view="${escapeHtml(p.id)}">${escapeHtml(p.name)}</h3>
           <p>${escapeHtml(p.subtitle)}</p>
           <div class="stockLine"><span class="stockDot"></span><span>${typeof p.stockQty==='number' ? escapeHtml(p.stockQty+' in stock') : 'Stock confirmed before order'}</span></div>
           <div class="cardFoot">
@@ -511,7 +649,9 @@
           </div>
         </div>
       </article>`).join('') || '<div class="muted">No products match this filter.</div>';
-    document.querySelectorAll('[data-add]').forEach(btn=>btn.addEventListener('click',()=>addToCart(btn.dataset.add)));
+    document.querySelectorAll('[data-add]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();addToCart(btn.dataset.add);}));
+    document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',()=>openProduct(el.dataset.view)));
+    document.querySelectorAll('[data-wish]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();toggleWishlist(btn.dataset.wish);}));
   }
 
   function addToCart(id){
@@ -693,13 +833,26 @@
   document.querySelectorAll('[data-jump-cat]').forEach(btn=>btn.onclick=()=>{
     state.category=btn.dataset.jumpCat||'all';
     document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('active',x.dataset.cat===state.category));
+    const rail=document.getElementById('accessoryRail'); if(rail) rail.hidden=state.category!=='accessory';
     renderProducts();
     location.hash='shop';
   });
 
   document.querySelectorAll('.chip').forEach(btn=>btn.onclick=()=>{
-    document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));btn.classList.add('active');state.category=btn.dataset.cat;renderProducts();
+    document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));btn.classList.add('active');state.category=btn.dataset.cat;
+    const rail=document.getElementById('accessoryRail'); if(rail) rail.hidden=state.category!=='accessory';
+    renderProducts();
   });
+  document.querySelectorAll('[data-accessory]').forEach(btn=>btn.onclick=()=>{
+    state.accessory=btn.dataset.accessory||'all';
+    document.querySelectorAll('[data-accessory]').forEach(x=>x.classList.toggle('active',x===btn));
+    renderProducts();
+  });
+  document.getElementById('productClose').onclick=closeProduct;
+  document.getElementById('productModal').onclick=e=>{if(e.target.id==='productModal')closeProduct();};
+  document.getElementById('detailAdd').onclick=()=>{if(state.activeProductId){addToCart(state.activeProductId);closeProduct();}};
+  document.getElementById('detailHeart').onclick=()=>{if(state.activeProductId){toggleWishlist(state.activeProductId);const saved=state.wishlist.includes(state.activeProductId);document.getElementById('detailHeart').classList.toggle('saved',saved);document.getElementById('detailHeart').textContent=saved?'♥':'♡';}};
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeProduct();});
   document.getElementById('closeSuccess').onclick=()=>document.getElementById('successModal').classList.remove('open');
   document.getElementById('trackSuccess').onclick=()=>{
     const ref=document.getElementById('successRef').textContent;
