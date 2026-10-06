@@ -6,7 +6,7 @@
   <title>Mr Mobiles Hosur | Shop, Repair, Exchange & Track</title>
   <meta name="description" content="Mr Mobiles Hosur — shop smartphones and accessories, book repairs, request sell/exchange quotes, pay securely and track your request online.">
   <link rel="canonical" href="https://mrmobiles.in/">
-  <meta name="theme-color" content="#080b12">
+  <meta name="theme-color" content="#07090d">\n  <link rel="preconnect" href="https://fonts.googleapis.com">\n  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <meta property="og:title" content="Mr Mobiles Hosur">
   <meta property="og:description" content="Shop, repair, exchange, pay and track — one automated Mr Mobiles experience.">
   <meta property="og:type" content="website">
@@ -66,7 +66,123 @@
     @media(max-width:920px){.links{display:none}.heroGrid,.flowGrid,.trackBox,.contactGrid{grid-template-columns:1fr}.productGrid{grid-template-columns:repeat(2,1fr)}.command{margin-top:6px}}
     @media(max-width:580px){body{padding-bottom:76px}.wrap{width:min(var(--max),calc(100% - 24px))}.nav{height:66px}.navActions .supportTop{display:none}.hero{padding:54px 0 30px}.command{padding:18px}.quickGrid{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr 1fr}.productGrid{grid-template-columns:1fr}.sectionHead{align-items:start;flex-direction:column}section{padding:54px 0}.form,.checkoutFields{grid-template-columns:1fr}.form .full,.checkoutFields .full{grid-column:auto}.flow{padding:21px}.mobileDock{display:grid;position:fixed;left:10px;right:10px;bottom:10px;z-index:100;grid-template-columns:1fr 1fr 1fr;background:#080b12f2;border:1px solid var(--line);border-radius:16px;padding:7px;gap:6px}.mobileDock a,.mobileDock button{border:0;border-radius:10px;padding:10px 4px;text-align:center;font-size:11px;font-weight:900;color:var(--text);background:var(--panel)}.mobileDock .pay{background:var(--gold);color:#1b1408}.cart{top:74px;max-height:calc(100vh - 96px)}}
   </style>
-</head>
+
+  <style id="premium-storefront-v3">
+    :root{
+      --bg:#07090d;--panel:#0d1117;--panel2:#11161e;--line:#202832;
+      --text:#f7f8fa;--muted:#9099a7;--gold:#f3a34f;--gold2:#ffc273;
+      --green:#38d39f;--red:#ff6a76;--blue:#168cff;--blue2:#57adff;--max:1240px;--r:26px
+    }
+    body{
+      background:
+        radial-gradient(circle at 82% -4%,rgba(22,140,255,.14),transparent 30%),
+        radial-gradient(circle at 8% 0,rgba(243,163,79,.10),transparent 24%),
+        var(--bg);
+      font-family:Manrope,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      letter-spacing:-.01em
+    }
+    h1,h2,h3,.brand{font-family:Sora,Manrope,system-ui,sans-serif}
+    h1,h2{letter-spacing:-.055em}
+    header{background:rgba(7,9,13,.82);border-bottom:1px solid rgba(255,255,255,.06);backdrop-filter:blur(24px) saturate(145%)}
+    .nav{height:76px}
+    .brand{font-size:15px;letter-spacing:-.04em}.brand small{color:#87919f;letter-spacing:.2em}
+    .mark{
+      width:44px;height:44px;border-radius:15px;
+      background:linear-gradient(145deg,#ffad5c,#ff7d35);
+      color:#120a04;font-family:Sora,Manrope,sans-serif;font-style:normal;font-size:15px;
+      box-shadow:0 12px 30px rgba(255,126,53,.22)
+    }
+    .links{gap:28px;font-size:13px}.links a:hover{color:#fff}
+    .btn{border-radius:14px;padding:12px 16px}.gold{background:linear-gradient(180deg,#ffb260,#ff8a3d);color:#170b04}.blue{background:linear-gradient(180deg,#2d9cff,#087fe8);color:#fff}
+    .primaryCta{box-shadow:0 14px 34px rgba(20,139,255,.24)}
+    .ghost{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.08)}
+    .premiumHero{padding:54px 0 28px}
+    .heroFrame{
+      min-height:560px;
+      display:grid;grid-template-columns:.86fr 1.14fr;gap:28px;align-items:stretch;
+      padding:24px;
+      border:1px solid rgba(255,255,255,.07);
+      border-radius:36px;
+      background:
+        radial-gradient(circle at 14% 20%,rgba(255,150,72,.11),transparent 31%),
+        linear-gradient(145deg,rgba(15,19,26,.96),rgba(7,9,13,.98));
+      box-shadow:0 35px 100px rgba(0,0,0,.35)
+    }
+    .heroCopy{display:flex;flex-direction:column;justify-content:center;padding:28px 20px 28px 26px}
+    .heroCopy h1{font-size:clamp(45px,5.7vw,74px);line-height:.98;margin:16px 0 20px}
+    .heroCopy h1 em{font-style:normal;background:linear-gradient(110deg,#ff9f4f,#ffd19c 45%,#f6f8fb);-webkit-background-clip:text;color:transparent}
+    .lead{font-size:17px;line-height:1.65;max-width:570px}
+    .serviceBadges{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px;color:#9da7b5;font-size:12px;font-weight:750}
+    .serviceBadges span{padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06)}
+    .heroShowcase{
+      position:relative;overflow:hidden;display:grid;grid-template-rows:minmax(0,1fr) auto;
+      min-height:510px;border-radius:29px;border:1px solid rgba(255,255,255,.07);
+      background:linear-gradient(150deg,#121820,#090c11);box-shadow:inset 0 1px 0 rgba(255,255,255,.04)
+    }
+    .heroImageWrap{position:relative;min-height:360px;display:grid;place-items:center;overflow:hidden}
+    .heroImageWrap:after{content:"";position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(transparent,rgba(7,9,13,.68));pointer-events:none}
+    .heroImageWrap img{width:100%;height:100%;min-height:360px;object-fit:cover;display:block;filter:saturate(.95) contrast(1.03)}
+    .heroBadge{position:absolute;left:18px;top:18px;z-index:2;padding:8px 11px;border-radius:999px;background:rgba(7,9,13,.62);border:1px solid rgba(255,255,255,.10);backdrop-filter:blur(12px);font-size:10px;font-weight:900;letter-spacing:.12em;color:#ffb465}
+    .heroProductMeta{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end;padding:20px 22px 22px}
+    .heroProductMeta small{color:#ff9d4d;font-size:10px;font-weight:900;letter-spacing:.12em}
+    .heroProductMeta h2{margin:5px 0 5px;font-size:25px;letter-spacing:-.045em}
+    .heroProductMeta p{margin:0;color:var(--muted);font-size:12px}
+    .heroPriceRow{display:flex;align-items:center;gap:12px}.heroPriceRow strong{font-size:22px}.roundArrow{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:#168cff;color:#fff;font-size:22px;font-weight:800}
+    .categoryStrip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
+    .categoryTile{
+      min-height:112px;padding:16px;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:13px;align-items:center;text-align:left;
+      border:1px solid rgba(255,255,255,.07);background:linear-gradient(180deg,#0e131a,#0b0f15);color:var(--text);border-radius:22px;
+      transition:transform .2s ease,border-color .2s ease,background .2s ease
+    }
+    .categoryTile:hover{transform:translateY(-3px);border-color:rgba(22,140,255,.34);background:#101722}
+    .categoryTile>span{grid-row:1/3;width:54px;height:54px;border-radius:18px;display:grid;place-items:center;font-size:28px;background:rgba(255,255,255,.045)}
+    .categoryTile b{align-self:end;font-size:15px}.categoryTile small{align-self:start;color:var(--muted);font-size:11px}
+    .storefrontSection{padding-top:58px}
+    .storefrontHead{align-items:center}.storefrontHead h2{font-size:clamp(34px,4vw,50px)}
+    .searchBox{width:min(390px,100%);height:48px;padding:0 14px;display:flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.08);background:#0c1118;border-radius:15px}
+    .searchBox span{font-size:21px;color:#7f8996}.searchBox input{width:100%;border:0;outline:0;background:transparent;color:#fff}.searchBox input::placeholder{color:#6f7884}
+    .brandRail{display:flex;gap:9px;overflow-x:auto;padding:2px 0 14px;scrollbar-width:none}
+    .brandChip{flex:0 0 auto;border:1px solid rgba(255,255,255,.07);background:#0c1117;color:#8f99a7;border-radius:13px;padding:10px 14px;font-weight:800;font-size:12px}
+    .brandChip.active{background:#f5f7fa;color:#090b0e;border-color:#f5f7fa}
+    .catalogToolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:4px 0 18px}.catalogCount{color:var(--muted);font-size:12px}
+    .chip{border-color:rgba(255,255,255,.08);background:#0d1218}.chip.active{background:#168cff;border-color:#168cff;color:#fff}
+    .productGrid{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+    .card{
+      position:relative;min-height:420px;padding:0;overflow:hidden;border:1px solid rgba(255,255,255,.07);
+      background:linear-gradient(180deg,#11171e,#0b0f15);border-radius:24px;
+      transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease
+    }
+    .card:hover{transform:translateY(-5px);border-color:rgba(22,140,255,.30);box-shadow:0 26px 60px rgba(0,0,0,.32)}
+    .productMedia{position:relative;height:235px;overflow:hidden;background:radial-gradient(circle at 50% 30%,rgba(35,103,138,.28),transparent 45%),#0b1016}
+    .productMedia img{width:100%;height:100%;object-fit:cover;display:block}
+    .productMedia:after{content:"";position:absolute;inset:auto 0 0;height:36%;background:linear-gradient(transparent,rgba(10,14,19,.5))}
+    .heart{position:absolute;right:12px;top:12px;z-index:2;width:36px;height:36px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(7,9,13,.62);color:#fff;backdrop-filter:blur(8px)}
+    .productBody{display:flex;flex:1;flex-direction:column;padding:16px}
+    .productBrand{font-size:10px;letter-spacing:.12em;color:#ff9f4f;font-weight:900;text-transform:uppercase}
+    .card h3{font-size:16px;margin:6px 0 5px;letter-spacing:-.035em}.card p{font-size:11.5px;line-height:1.5;margin:0 0 14px}
+    .stockLine{display:flex;align-items:center;gap:6px;color:#7f8995;font-size:10.5px;margin-bottom:13px}.stockDot{width:6px;height:6px;border-radius:99px;background:#37d39d}
+    .cardFoot{margin-top:auto;padding-top:13px;border-top:1px solid rgba(255,255,255,.055)}.price{font-family:Sora,Manrope,sans-serif;color:#f7f8fa;font-size:18px;letter-spacing:-.045em}
+    .add{width:42px;height:42px;padding:0;border:0;border-radius:13px;background:#168cff;color:#fff;font-size:18px}
+    .premiumNotice{margin-top:18px}
+    .flow,.trackPanel,.timelinePanel,.contactBox{background:linear-gradient(180deg,#0e131a,#0b0f15);border-color:rgba(255,255,255,.07);border-radius:26px}
+    .flow h2,.contactBox h2{font-family:Sora,Manrope,sans-serif}
+    .form input,.form select,.form textarea,.checkoutFields input,.checkoutFields textarea{background:#080c11;border-color:rgba(255,255,255,.08)}
+    .cart{background:#090d12;border-color:rgba(255,255,255,.08);backdrop-filter:blur(22px)}
+    .mobileDock{grid-template-columns:repeat(5,1fr);background:rgba(8,11,16,.94);border-color:rgba(255,255,255,.08);backdrop-filter:blur(20px)}
+    .mobileDock a,.mobileDock button{background:transparent;color:#87919f}.mobileDock .pay{background:transparent;color:#168cff}
+    @media(max-width:1000px){
+      .heroFrame{grid-template-columns:1fr;min-height:0}.heroCopy{padding:20px 14px}.heroShowcase{min-height:480px}.categoryStrip{grid-template-columns:repeat(2,1fr)}
+      .productGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media(max-width:580px){
+      .premiumHero{padding:20px 0 20px}.heroFrame{padding:10px;border-radius:26px}.heroCopy{padding:22px 14px 18px}.heroCopy h1{font-size:43px}
+      .heroShowcase{min-height:405px;border-radius:21px}.heroImageWrap,.heroImageWrap img{min-height:280px}.heroProductMeta{padding:16px}.heroProductMeta h2{font-size:20px}.heroProductMeta p{display:none}.heroPriceRow strong{font-size:17px}
+      .categoryStrip{grid-template-columns:1fr 1fr;gap:8px}.categoryTile{min-height:96px;padding:12px}.categoryTile>span{width:44px;height:44px;border-radius:14px;font-size:23px}.categoryTile small{font-size:9.5px}
+      .storefrontHead{align-items:stretch}.searchBox{width:100%}.catalogToolbar{align-items:flex-start;flex-direction:column}.productGrid{grid-template-columns:1fr 1fr;gap:9px}
+      .card{min-height:335px;border-radius:18px}.productMedia{height:175px}.productBody{padding:12px}.card h3{font-size:13px}.card p{font-size:10px;min-height:30px}.price{font-size:14px}.add{width:36px;height:36px;border-radius:11px}
+      .stockLine{font-size:9px}.heart{width:32px;height:32px;border-radius:10px}.storefrontSection{padding-top:36px}
+    }
+  </style>\n</head>
 <body>
 <header>
   <div class="wrap nav">
@@ -80,43 +196,81 @@
 </header>
 
 <main id="top">
-  <section class="hero">
-    <div class="wrap heroGrid">
-      <div>
-        <div class="eyebrow">MR MOBILES • AUTOMATED SERVICE</div>
-        <h1>Your mobile journey, <em>handled end-to-end.</em></h1>
-        <p class="lead">Shop devices, pay securely, book repairs, request exchange quotes and track every request from one place — with a reference code you can use anytime.</p>
-        <div class="heroBtns">
-          <a class="btn gold" href="#shop">Shop now</a>
-          <a class="btn ghost" href="#repair">Book repair</a>
-          <a class="btn blue" href="#track">Track request</a>
+  <section class="hero premiumHero">
+    <div class="wrap">
+      <div class="heroFrame">
+        <div class="heroCopy">
+          <div class="eyebrow">MR MOBILES • PREMIUM TECH STORE</div>
+          <h1>Find your next <em>everyday upgrade.</em></h1>
+          <p class="lead">Phones, accessories, repairs and secure checkout — redesigned as one premium Mr Mobiles experience.</p>
+          <div class="heroBtns">
+            <a class="btn blue primaryCta" href="#shop">Explore collection</a>
+            <a class="btn ghost" href="#repair">Book a repair</a>
+          </div>
+          <div class="serviceBadges">
+            <span>✓ Live catalogue</span>
+            <span>✓ Secure Razorpay</span>
+            <span>✓ Repair tracking</span>
+          </div>
         </div>
+
+        <article class="heroShowcase" id="featuredHero">
+          <div class="heroImageWrap">
+            <img id="featuredHeroImage" alt="Featured Mr Mobiles product" loading="eager">
+            <span class="heroBadge">DAILY FEATURED</span>
+          </div>
+          <div class="heroProductMeta">
+            <div>
+              <small id="featuredHeroBrand">MR MOBILES PICK</small>
+              <h2 id="featuredHeroName">Loading today’s pick…</h2>
+              <p id="featuredHeroSubtitle">Fresh product highlights update automatically.</p>
+            </div>
+            <div class="heroPriceRow">
+              <strong id="featuredHeroPrice">—</strong>
+              <a href="#shop" class="roundArrow" aria-label="View featured products">→</a>
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="command">
-        <div class="commandTop"><div><div class="eyebrow">QUICK ACTIONS</div><strong>What do you need today?</strong></div><span class="live">● ONLINE</span></div>
-        <div class="quickGrid">
-          <button class="quick" onclick="location.hash='shop'"><span>🛍️</span><b>Buy a device</b><span>Cart + secure payment</span></button>
-          <button class="quick" onclick="location.hash='repair'"><span>🛠️</span><b>Repair booking</b><span>Get a service reference</span></button>
-          <button class="quick" onclick="location.hash='exchange'"><span>🔄</span><b>Sell / Exchange</b><span>Submit device details</span></button>
-          <button class="quick" onclick="location.hash='track'"><span>📦</span><b>Track status</b><span>Order or service timeline</span></button>
-        </div>
-        <div class="stats">
-          <div class="stat"><strong>Secure pay</strong><span>Razorpay verified</span></div>
-          <div class="stat"><strong>Trackable</strong><span>Every request gets an ID</span></div>
-          <div class="stat"><strong>Local support</strong><span>Hosur store</span></div>
-        </div>
+
+      <div class="categoryStrip" aria-label="Store categories">
+        <button class="categoryTile" data-jump-cat="phone"><span>📱</span><b>Mobiles</b><small>Apple · Samsung · Pixel</small></button>
+        <button class="categoryTile" data-jump-cat="accessory"><span>🎧</span><b>Accessories</b><small>Cases · audio · charging</small></button>
+        <button class="categoryTile" data-jump-cat="accessory"><span>⌚</span><b>Gadgets</b><small>Wearables · power · more</small></button>
+        <button class="categoryTile" onclick="location.hash='repair'"><span>🛠️</span><b>Repairs</b><small>Diagnosis · quote · track</small></button>
       </div>
     </div>
   </section>
 
-  <section id="shop">
+  <section id="shop" class="storefrontSection">
     <div class="wrap">
-      <div class="sectionHead">
-        <div><div class="eyebrow">SHOP</div><h2>Phones & accessories</h2><p>Product totals are recalculated securely on the server before payment. Exact pre-owned condition and live stock are confirmed for the unit supplied.</p></div>
-        <div class="chips"><button class="chip active" data-cat="all">All</button><button class="chip" data-cat="phone">Phones</button><button class="chip" data-cat="accessory">Accessories</button></div>
+      <div class="sectionHead storefrontHead">
+        <div>
+          <div class="eyebrow">CURATED DAILY</div>
+          <h2>Today’s picks.</h2>
+          <p>Fresh phones and accessories from the live Mr Mobiles catalogue. Stock and pre-owned condition are confirmed before fulfilment.</p>
+        </div>
+        <label class="searchBox">
+          <span>⌕</span>
+          <input id="catalogSearch" type="search" placeholder="Search phones, brands, accessories…" autocomplete="off">
+        </label>
       </div>
+
+      <div class="brandRail" id="brandFilters">
+        <button class="brandChip active" data-brand="all">All brands</button>
+      </div>
+
+      <div class="catalogToolbar">
+        <div class="chips">
+          <button class="chip active" data-cat="all">All</button>
+          <button class="chip" data-cat="phone">Mobiles</button>
+          <button class="chip" data-cat="accessory">Accessories & gadgets</button>
+        </div>
+        <span class="catalogCount" id="catalogCount">Loading…</span>
+      </div>
+
       <div class="productGrid" id="productGrid"><div class="muted">Loading live catalogue…</div></div>
-      <div class="notice">Pre-owned pricing and availability can change. Payment confirmation does not replace final unit-condition confirmation where a product is unit-specific.</div>
+      <div class="notice premiumNotice">Live stock, pre-owned condition, battery health and final unit availability are confirmed before fulfilment. Payments are verified by the Mr Mobiles backend.</div>
     </div>
   </section>
 
@@ -229,13 +383,15 @@
 <div class="toast" id="toast"></div>
 
 <nav class="mobileDock" aria-label="Quick actions">
-  <a href="#repair">Repair</a>
-  <button class="pay" id="mobileCart">Cart <span id="mobileCartCount">0</span></button>
-  <a href="#track">Track</a>
+  <a href="#top">⌂<br>Home</a>
+  <a href="#shop">▦<br>Shop</a>
+  <a href="#repair">⌁<br>Repair</a>
+  <button class="pay" id="mobileCart">🛒<br>Cart <span id="mobileCartCount">0</span></button>
+  <a href="#track">◎<br>Track</a>
 </nav>
 
 <script>
-  const API = 'https://appmrmobiles.vercel.app/api/web';
+  const API_HOST = 'https://appmrmobiles.vercel.app';\n  const API = API_HOST + '/api/web';
   const fallbackProducts = [
     {id:'iphone-13-pro-128',name:'iPhone 13 Pro 128GB',category:'phone',pricePaise:5299900,subtitle:'Pre-owned • Confirm condition & battery health',emoji:'📱'},
     {id:'iphone-12-64',name:'iPhone 12 64GB',category:'phone',pricePaise:2849900,subtitle:'Pre-owned • Confirm condition & battery health',emoji:'📱'},
@@ -250,13 +406,70 @@
   const state = {
     products: [],
     category: 'all',
+    brand: 'all',
+    query: '',
     cart: JSON.parse(localStorage.getItem('mr_cart') || '[]')
   };
 
   const money = paise => new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(Number(paise || 0)/100);
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 
-  function toast(message, good=false){
+
+  const inferBrand = product => {
+    if(product.brand) return product.brand;
+    const name=String(product.name||'').toLowerCase();
+    if(name.includes('iphone')) return 'Apple';
+    if(name.includes('galaxy')) return 'Samsung';
+    if(name.includes('pixel')) return 'Google';
+    if(name.includes('oneplus')) return 'OnePlus';
+    return product.category==='accessory' ? 'Accessories' : 'Mr Mobiles';
+  };
+
+  const dailyVariant = id => {
+    const day=Math.floor(Date.now()/86400000);
+    let hash=day;
+    for(const ch of String(id||'')) hash=((hash<<5)-hash+ch.charCodeAt(0))|0;
+    return Math.abs(hash)%6;
+  };
+
+  const productImage = product => {
+    if(product.imageUrl) return product.imageUrl;
+    if(product.dailyVisualUrl) return product.dailyVisualUrl.startsWith('http') ? product.dailyVisualUrl : API_HOST+product.dailyVisualUrl;
+    const params=new URLSearchParams({
+      id:product.id||'product',
+      category:product.category||'accessory',
+      day:new Date().toISOString().slice(0,10),
+      variant:String(dailyVariant(product.id))
+    });
+    return API_HOST+'/api/product-visual?'+params.toString();
+  };
+
+  function renderBrandFilters(){
+    const brands=['all',...new Set(state.products.map(inferBrand).filter(Boolean))];
+    const root=document.getElementById('brandFilters');
+    if(!root) return;
+    root.innerHTML=brands.map(brand=>'<button class="brandChip '+(state.brand===brand?'active':'')+'" data-brand="'+escapeHtml(brand)+'">'+(brand==='all'?'All brands':escapeHtml(brand))+'</button>').join('');
+    root.querySelectorAll('[data-brand]').forEach(btn=>btn.onclick=()=>{
+      state.brand=btn.dataset.brand;
+      renderBrandFilters();
+      renderProducts();
+    });
+  }
+
+  function renderFeatured(){
+    const phones=state.products.filter(p=>p.category==='phone');
+    const pool=phones.length?phones:state.products;
+    if(!pool.length) return;
+    const day=Math.floor(Date.now()/86400000);
+    const product=pool[day%pool.length];
+    document.getElementById('featuredHeroImage').src=productImage(product);
+    document.getElementById('featuredHeroImage').alt=product.name;
+    document.getElementById('featuredHeroBrand').textContent=inferBrand(product)+' • DAILY PICK';
+    document.getElementById('featuredHeroName').textContent=product.name;
+    document.getElementById('featuredHeroSubtitle').textContent=product.subtitle||'Curated by Mr Mobiles';
+    document.getElementById('featuredHeroPrice').textContent=money(product.pricePaise);
+  }
+\n  function toast(message, good=false){
     const el=document.getElementById('toast');
     el.textContent=message;
     el.className='toast show '+(good?'good':'bad');
@@ -270,18 +483,34 @@
   }
 
   function renderProducts(){
-    const products=state.products.filter(p=>state.category==='all'||p.category===state.category);
+    const query=state.query.trim().toLowerCase();
+    const products=state.products.filter(p=>{
+      const brand=inferBrand(p);
+      const catOk=state.category==='all'||p.category===state.category;
+      const brandOk=state.brand==='all'||brand===state.brand;
+      const text=[p.name,p.subtitle,brand,p.model||''].join(' ').toLowerCase();
+      const queryOk=!query||text.includes(query);
+      return catOk&&brandOk&&queryOk;
+    });
+    const count=document.getElementById('catalogCount');
+    if(count) count.textContent=products.length+' '+(products.length===1?'item':'items');
     document.getElementById('productGrid').innerHTML=products.map(p=>`
       <article class="card">
-        <div class="pic">${escapeHtml(p.emoji)}</div>
-        <div class="tag">${escapeHtml(p.category)}</div>
-        <h3>${escapeHtml(p.name)}</h3>
-        <p>${escapeHtml(p.subtitle)}</p>
-        <div class="cardFoot">
-          <span class="price">${money(p.pricePaise)}</span>
-          <button class="add" data-add="${escapeHtml(p.id)}">Add</button>
+        <div class="productMedia">
+          <img src="${escapeHtml(productImage(p))}" alt="${escapeHtml(p.name)}" loading="lazy" referrerpolicy="no-referrer">
+          <button class="heart" type="button" aria-label="Save ${escapeHtml(p.name)}">♡</button>
         </div>
-      </article>`).join('') || '<div class="muted">No products in this category.</div>';
+        <div class="productBody">
+          <div class="productBrand">${escapeHtml(inferBrand(p))}</div>
+          <h3>${escapeHtml(p.name)}</h3>
+          <p>${escapeHtml(p.subtitle)}</p>
+          <div class="stockLine"><span class="stockDot"></span><span>${typeof p.stockQty==='number' ? escapeHtml(p.stockQty+' in stock') : 'Stock confirmed before order'}</span></div>
+          <div class="cardFoot">
+            <span class="price">${money(p.pricePaise)}</span>
+            <button class="add" data-add="${escapeHtml(p.id)}" aria-label="Add ${escapeHtml(p.name)} to cart">＋</button>
+          </div>
+        </div>
+      </article>`).join('') || '<div class="muted">No products match this filter.</div>';
     document.querySelectorAll('[data-add]').forEach(btn=>btn.addEventListener('click',()=>addToCart(btn.dataset.add)));
   }
 
@@ -337,6 +566,8 @@
       state.products=fallbackProducts;
       toast('Live catalogue could not refresh. Showing saved listings.');
     }
+    renderBrandFilters();
+    renderFeatured();
     renderProducts();
     renderCart();
   }
@@ -456,6 +687,16 @@
   document.getElementById('repairForm').onsubmit=e=>{e.preventDefault();submitService('repair');};
   document.getElementById('exchangeForm').onsubmit=e=>{e.preventDefault();submitService('exchange');};
   document.getElementById('trackForm').onsubmit=trackRequest;
+  const searchInput=document.getElementById('catalogSearch');
+  if(searchInput) searchInput.oninput=e=>{state.query=e.target.value;renderProducts();};
+
+  document.querySelectorAll('[data-jump-cat]').forEach(btn=>btn.onclick=()=>{
+    state.category=btn.dataset.jumpCat||'all';
+    document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('active',x.dataset.cat===state.category));
+    renderProducts();
+    location.hash='shop';
+  });
+
   document.querySelectorAll('.chip').forEach(btn=>btn.onclick=()=>{
     document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));btn.classList.add('active');state.category=btn.dataset.cat;renderProducts();
   });
