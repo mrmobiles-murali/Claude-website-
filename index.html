@@ -6,7 +6,10 @@
   <title>Mr Mobiles Hosur | Shop, Repair, Exchange & Track</title>
   <meta name="description" content="Mr Mobiles Hosur — shop smartphones and accessories, book repairs, request sell/exchange quotes, pay securely and track your request online.">
   <link rel="canonical" href="https://mrmobiles.in/">
-  <meta name="theme-color" content="#07090d">\n  <link rel="preconnect" href="https://fonts.googleapis.com">\n  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#07090d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <meta property="og:title" content="Mr Mobiles Hosur">
   <meta property="og:description" content="Shop, repair, exchange, pay and track — one automated Mr Mobiles experience.">
   <meta property="og:type" content="website">
@@ -182,7 +185,8 @@
       .card{min-height:335px;border-radius:18px}.productMedia{height:175px}.productBody{padding:12px}.card h3{font-size:13px}.card p{font-size:10px;min-height:30px}.price{font-size:14px}.add{width:36px;height:36px;border-radius:11px}
       .stockLine{font-size:9px}.heart{width:32px;height:32px;border-radius:10px}.storefrontSection{padding-top:36px}
     }
-  </style>\n</head>
+  </style>
+</head>
 <body>
 <header>
   <div class="wrap nav">
@@ -391,7 +395,8 @@
 </nav>
 
 <script>
-  const API_HOST = 'https://appmrmobiles.vercel.app';\n  const API = API_HOST + '/api/web';
+  const API_HOST = 'https://appmrmobiles.vercel.app';
+  const API = API_HOST + '/api/web';
   const fallbackProducts = [
     {id:'iphone-13-pro-128',name:'iPhone 13 Pro 128GB',category:'phone',pricePaise:5299900,subtitle:'Pre-owned • Confirm condition & battery health',emoji:'📱'},
     {id:'iphone-12-64',name:'iPhone 12 64GB',category:'phone',pricePaise:2849900,subtitle:'Pre-owned • Confirm condition & battery health',emoji:'📱'},
@@ -469,7 +474,8 @@
     document.getElementById('featuredHeroSubtitle').textContent=product.subtitle||'Curated by Mr Mobiles';
     document.getElementById('featuredHeroPrice').textContent=money(product.pricePaise);
   }
-\n  function toast(message, good=false){
+
+  function toast(message, good=false){
     const el=document.getElementById('toast');
     el.textContent=message;
     el.className='toast show '+(good?'good':'bad');
