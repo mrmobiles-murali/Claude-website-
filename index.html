@@ -205,11 +205,108 @@
     .detailAdd{margin-top:26px;width:100%;min-height:54px;border:0;border-radius:15px;background:linear-gradient(180deg,#2498ff,#087fe9);color:#fff;font-weight:900;font-size:15px;box-shadow:0 18px 38px rgba(22,140,255,.20)}
     @media(max-width:700px){.productModal{padding:0;background:#07090d}.productModalCard{width:100%;height:100%;max-height:none;border:0;border-radius:0;display:block;background:#07090d}.detailMedia{min-height:45vh;height:45vh}.detailMedia img{min-height:45vh;height:45vh;object-fit:cover}.detailBody{padding:20px 20px 110px;justify-content:flex-start}.detailBody h2{font-size:27px}.detailPriceLine strong{font-size:24px}.detailSpecs{grid-template-columns:repeat(4,1fr);gap:7px}.spec{min-height:66px;padding:8px 5px}.spec b{font-size:10px}.spec small{font-size:8px}.detailAdd{position:fixed;left:14px;right:14px;bottom:88px;width:auto;z-index:160}.productClose{left:14px;right:auto;top:14px}.detailHeart{right:14px;top:14px}}
   </style>
+
+<style id="approved-reference-mobile">
+@media(max-width:700px){
+  :root{--bg:#05080b;--panel:#10151a;--panel2:#151b20;--line:#1d252c;--blue:#0a84ff}
+  html,body{background:#05080b}
+  body{padding-bottom:82px;background:#05080b;font-family:Inter,Manrope,system-ui,sans-serif}
+  .wrap{width:100%;padding-left:14px;padding-right:14px}
+  header{height:76px;background:#05080bf2;border-bottom:1px solid #151c22;backdrop-filter:blur(18px)}
+  .nav{height:76px;padding:0 12px;display:grid;grid-template-columns:42px 1fr 42px;position:relative}
+  .appBrand{grid-column:2;justify-self:center;gap:0;text-align:center}
+  .appBrand .mark{display:none}
+  .appBrand>span{font:800 14px/1 Manrope,sans-serif;letter-spacing:.015em}
+  .appBrand small{font:500 10px/1 Inter,sans-serif;color:#7f8790;letter-spacing:0;margin-top:5px}
+  .links{display:none}.navActions{grid-column:3;justify-self:end}.navActions .supportTop{display:none}
+  .navActions .gold{width:38px;height:38px;padding:0;border:0;background:transparent;color:transparent;font-size:0;position:relative}
+  .navActions .gold:after{content:"•••";color:#fff;font-size:19px;letter-spacing:2px;position:absolute;inset:0;display:grid;place-items:center}
+  .navActions .gold span{display:none}
+  .premiumHero{padding:0 0 8px}
+  .premiumHero>.wrap{padding:0;width:100%}
+  .heroFrame{display:block;min-height:0;padding:0;border:0;border-radius:0;background:#05080b;box-shadow:none}
+  .heroCopy{display:none}
+  .heroShowcase{min-height:330px;height:330px;border:0;border-radius:0 0 22px 22px;display:block;position:relative;background:#10161b}
+  .heroImageWrap,.heroImageWrap img{height:330px;min-height:330px}
+  .heroImageWrap img{object-fit:cover}
+  .heroImageWrap:after{height:100%;background:linear-gradient(90deg,rgba(3,6,8,.86),rgba(3,6,8,.28) 56%,rgba(3,6,8,.08)),linear-gradient(0deg,rgba(3,5,7,.64),transparent 50%)}
+  .heroBadge{display:none}
+  .heroProductMeta{position:absolute;z-index:5;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:34px 20px;width:63%;pointer-events:none}
+  .heroProductMeta small{display:none}
+  .heroProductMeta h2{font:800 28px/1.04 Manrope,sans-serif;letter-spacing:-.055em;margin:0 0 9px;color:#fff}
+  .heroProductMeta p{display:block;font:500 15px/1.35 Inter,sans-serif;color:#fff;margin:0 0 15px;max-height:62px;overflow:hidden}
+  .heroPriceRow{display:block}.heroPriceRow strong{display:none}
+  .roundArrow{pointer-events:auto;width:auto;height:auto;border-radius:999px;padding:10px 15px;background:#fff;color:#090c0f;font-size:0;font-weight:800}
+  .roundArrow:after{content:"Explore Now  →";font-size:11px}
+  .categoryStrip{grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 8px;padding:0 10px}
+  .categoryTile{min-height:86px;padding:0;border:0;background:transparent!important;border-radius:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transform:none!important}
+  .categoryTile>span{width:62px;height:62px;display:grid;place-items:center;border-radius:50%;background:radial-gradient(circle at 35% 25%,#243849,#10161c 72%);border:1px solid #1e2730;font-size:29px;margin:0}
+  .categoryTile:nth-child(4)>span{background:radial-gradient(circle at 35% 25%,#541424,#1b0a10 72%)}
+  .categoryTile b{font-size:10.5px;margin-top:7px;align-self:auto}.categoryTile small{display:none}
+  .storefrontSection{padding:10px 0 22px}
+  .storefrontHead{display:flex;align-items:end;justify-content:space-between;margin-bottom:10px;padding:0}
+  .storefrontHead .eyebrow{display:none}
+  .storefrontHead h2{font:800 22px/1 Manrope,sans-serif;letter-spacing:-.045em;margin:0}
+  .storefrontHead h2:after{content:"";}.storefrontHead p{font-size:10.5px;color:#7f8892;margin-top:5px;max-width:190px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .searchBox{display:none}
+  .brandRail,.catalogToolbar{display:none}
+  body[data-catalog-mode="phone"] .brandRail{display:flex;margin:2px 0 10px;padding:0 0 4px}
+  body[data-catalog-mode="phone"] .catalogToolbar{display:flex;margin:0 0 11px}
+  body[data-catalog-mode="accessory"] .catalogToolbar{display:flex;margin:0 0 8px}
+  body[data-catalog-mode="phone"] .storefrontHead h2:before{content:"Mobiles";font-size:26px}
+  body[data-catalog-mode="phone"] .storefrontHead h2{font-size:0}
+  body[data-catalog-mode="phone"] .storefrontHead p{max-width:none;font-size:11px}
+  body[data-catalog-mode="accessory"] .storefrontHead h2:before{content:"Accessories";font-size:26px}
+  body[data-catalog-mode="accessory"] .storefrontHead h2{font-size:0}
+  .brandChip{padding:10px 13px;border-radius:12px;font-size:10px;background:#10161b;border-color:#1a232a}.brandChip.active{background:#f7f7f8;color:#090b0d}
+  .chips{gap:6px}.chip{padding:8px 12px;border-radius:999px;font-size:10px;background:#10161b}.chip.active{background:#0a84ff;border-color:#0a84ff;color:white}
+  .catalogCount{display:none}
+  .accessoryRail{gap:7px;margin:0 0 10px;padding-bottom:2px}.accessoryChip{padding:8px 12px;font-size:10px}.accessoryChip.active{background:#0a84ff}
+  .productGrid{grid-template-columns:1fr 1fr;gap:9px}
+  .card{min-height:318px;border-radius:15px;background:linear-gradient(180deg,#141a20,#0e1318);border:1px solid #1b232b;box-shadow:none;transform:none!important}
+  .productMedia{height:178px;background:#0f151a}
+  .productMedia img{object-fit:cover}
+  .heart{width:30px;height:30px;right:8px;top:8px;border-radius:50%;font-size:15px;background:#0a0e12b8}
+  .productBody{padding:10px}
+  .productBrand{display:none}
+  .card h3{font:750 12.5px/1.2 Manrope,sans-serif;margin:0 0 4px;letter-spacing:-.025em}
+  .card p{font-size:9.5px;line-height:1.35;margin:0;min-height:26px;color:#9aa2aa}
+  .stockLine{display:none}
+  .cardFoot{border:0;padding-top:9px;margin-top:auto}
+  .price{font:800 14px/1 Manrope,sans-serif;color:#fff}
+  .add{width:34px;height:34px;min-width:34px;border-radius:10px;background:#fff;color:#087eea;font-size:0}
+  .add:after{content:"🛒";font-size:15px}
+  .premiumNotice{display:none}
+  #repair,#exchange,#track,#contact{padding:38px 0}
+  .flowGrid,.trackBox,.contactGrid{grid-template-columns:1fr}
+  .flow,.trackPanel,.timelinePanel,.contactBox{border-radius:18px}
+  footer{display:none}
+  .mobileDock{left:0;right:0;bottom:0;border-radius:0;height:78px;padding:8px 10px max(8px,env(safe-area-inset-bottom));grid-template-columns:repeat(5,1fr);background:#05080bf5;border-top:1px solid #171d23;gap:0}
+  .mobileDock a,.mobileDock button{background:transparent!important;color:#7d8690!important;border-radius:0;padding:6px 2px;font-size:9px;line-height:1.4}
+  .mobileDock a:first-child{color:#0a84ff!important}
+  .mobileDock .pay{color:#7d8690!important}
+  .cart{inset:auto 0 0 0;top:auto;width:100%;max-height:84vh;border-radius:24px 24px 0 0;border-color:#222b33;padding:18px;background:#0a0f13}
+  .productModal{padding:0;background:#05080b}
+  .productModalCard{width:100%;height:100%;max-height:none;border:0;border-radius:0;background:#05080b;display:block}
+  .detailMedia{height:47vh;min-height:47vh;background:#0e1419}
+  .detailMedia img{height:47vh;min-height:47vh;object-fit:cover}
+  .detailBody{padding:18px 18px 110px}
+  .detailBody h2{font:800 25px/1.05 Manrope,sans-serif;letter-spacing:-.045em;margin:7px 0}
+  .detailSub{font-size:11px}
+  .detailPriceLine strong{font:800 23px Manrope,sans-serif}
+  .detailSpecs{grid-template-columns:repeat(4,1fr);gap:6px}
+  .spec{min-height:68px;border-radius:12px}.spec b{font-size:9.5px}.spec small{font-size:7.5px}
+  .variantBtn{padding:8px 12px;min-width:66px;font-size:10px}
+  .colorDot{width:31px;height:31px}
+  .detailAdd{position:fixed;left:14px;right:14px;bottom:88px;z-index:160;width:auto;min-height:52px;border-radius:12px}
+  .productClose{left:12px;right:auto;top:12px}.detailHeart{right:12px;top:12px}
+}
+</style>
 </head>
 <body>
 <header>
   <div class="wrap nav">
-    <a class="brand" href="#top"><span class="mark">Mr</span><span>Mr Mobiles<small>HOSUR</small></span></a>
+    <a class="brand appBrand" href="#top"><span class="mark">Mr</span><span>MR MOBILES<small>mini app</small></span></a>
     <nav class="links"><a href="#shop">Shop</a><a href="#repair">Repair</a><a href="#exchange">Sell / Exchange</a><a href="#track">Track</a><a href="#contact">Contact</a></nav>
     <div class="navActions">
       <a class="btn ghost supportTop" href="https://t.me/MrMobileDoctor_bot?start=support" target="_blank" rel="noopener">Telegram</a>
@@ -443,10 +540,10 @@
 
 <nav class="mobileDock" aria-label="Quick actions">
   <a href="#top">⌂<br>Home</a>
-  <a href="#shop">▦<br>Shop</a>
-  <a href="#repair">⌁<br>Repair</a>
-  <button class="pay" id="mobileCart">🛒<br>Cart <span id="mobileCartCount">0</span></button>
-  <a href="#track">◎<br>Track</a>
+  <a href="#shop">▦<br>Categories</a>
+  <a href="#shop">⌕<br>Search</a>
+  <button class="pay" id="mobileCart">▢<br>Orders <span id="mobileCartCount">0</span></button>
+  <a href="#contact">♙<br>Profile</a>
 </nav>
 
 <script>
@@ -495,8 +592,20 @@
     return Math.abs(hash)%6;
   };
 
+  const showcaseImages = {
+    'iphone-13-pro-128':'https://images.unsplash.com/photo-1632661674596-df8be070a5c5?auto=format&fit=crop&w=900&q=88',
+    'iphone-12-64':'https://images.unsplash.com/photo-1603891128711-11b4b03bb138?auto=format&fit=crop&w=900&q=88',
+    'iphone-11-128':'https://images.unsplash.com/photo-1574755393849-623942496936?auto=format&fit=crop&w=900&q=88',
+    'galaxy-s22-ultra-256':'https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=900&q=88',
+    'oneplus-11r-128':'https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=88',
+    'pixel-7-128':'https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=88',
+    'magnetic-case':'https://images.unsplash.com/photo-1601593346740-925612772716?auto=format&fit=crop&w=900&q=88',
+    'gan-65w-charger':'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=900&q=88'
+  };
+
   const productImage = product => {
     if(product.imageUrl) return product.imageUrl;
+    if(showcaseImages[product.id]) return showcaseImages[product.id];
     if(product.dailyVisualUrl) return product.dailyVisualUrl.startsWith('http') ? product.dailyVisualUrl : API_HOST+product.dailyVisualUrl;
     const params=new URLSearchParams({
       id:product.id||'product',
@@ -832,6 +941,7 @@
 
   document.querySelectorAll('[data-jump-cat]').forEach(btn=>btn.onclick=()=>{
     state.category=btn.dataset.jumpCat||'all';
+    document.body.dataset.catalogMode=state.category;
     document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('active',x.dataset.cat===state.category));
     const rail=document.getElementById('accessoryRail'); if(rail) rail.hidden=state.category!=='accessory';
     renderProducts();
@@ -840,6 +950,7 @@
 
   document.querySelectorAll('.chip').forEach(btn=>btn.onclick=()=>{
     document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));btn.classList.add('active');state.category=btn.dataset.cat;
+    document.body.dataset.catalogMode=state.category;
     const rail=document.getElementById('accessoryRail'); if(rail) rail.hidden=state.category!=='accessory';
     renderProducts();
   });
